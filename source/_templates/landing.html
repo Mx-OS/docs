@@ -42,11 +42,20 @@
 					<a href="#publico">Público</a>
 					<a href="#unete">Únete</a>
 					<a href="/acerca/qué.html">Documentación</a>
+					<a href="https://gitlab.com/mxos/website">Código</a>
 				</div>
 			</nav>
 			<div class="hero-content">
 				<h1>MxOS</h1>
-				<p>Construyendo una distribución Linux segura, abierta y soberana para México.</p>
+
+				<p>
+					Construyendo una distribución Linux segura, abierta y soberana para México.
+				</p>
+
+				<p>
+					Inspirado en el proyecto de <a href='https://eu-os.eu/'>EU-OS</a>
+				</p>
+
 				<a href="#unete" class="cta-button">Explora & Participa</a>
 			</div>
 		</header>
@@ -122,16 +131,19 @@
 		<script>
 			document.getElementById('year').textContent = new Date().getFullYear();
 
-			// Simple script para resaltar el enlace activo en el menú (opcional)
-			const sections = document.querySelectorAll('main section[id]'); // Selecciona solo secciones con ID en main
+			// Script para resaltar el enlace activo en el menú (opcional)
+			// Selecciona solo secciones con ID en main
+			const sections = document.querySelectorAll('main section[id]');
 			const navLinks = document.querySelectorAll('.nav-links a');
 			window.onscroll = () => {
-				let current = ''; // Inicia sin sección activa detectada por scroll
+				// Inicia sin sección activa detectada por scroll
+				let current = '';
 				let headerHeight = document.querySelector('nav') ? document.querySelector('nav').offsetHeight + 20 : 60; // Ajusta el offset
 
 				sections.forEach(section => {
 					const sectionTop = section.offsetTop;
 					const sectionHeight = section.offsetHeight;
+
 					// Detecta si el usuario está viendo la sección (considerando un offset por el nav)
 					if (pageYOffset >= sectionTop - headerHeight && pageYOffset < sectionTop + sectionHeight - headerHeight) {
 						current = section.getAttribute('id');
@@ -159,6 +171,7 @@
 					}
 				});
 			};
+
 			// Ejecuta una vez al cargar por si la página carga con un hash
 			window.dispatchEvent(new Event('scroll'));
 		</script>
