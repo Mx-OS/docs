@@ -1,7 +1,7 @@
 Instalación
 ===========
 
-Para instalar lo requerido para colaborar con este manual, debes hacer lo siguiente:
+Para instalar lo requerido para colaborar con el proyecto de documentación, debes hacer lo siguiente:
 
 
 .. tab-set::
@@ -38,8 +38,8 @@ Para instalar lo requerido para colaborar con este manual, debes hacer lo siguie
         Por lo pronto, no existen los paquetes:
 
         * python3-furo
-        * sphinx-bable-spanish
-        * sphinx-inline-tabs
+        * sphinx-babel-spanish
+        * python3-sphinx-design
 
         Fuera de eso, las dependencias pudiesen ser instaladas en la misma manera que Fedora pero sin incluir estos dos paquetes.
 
@@ -83,4 +83,4 @@ Para instalar lo requerido para colaborar con este manual, debes hacer lo siguie
                 texlive-upquote \
                 texlive-wrapfig
 
-        Para los componentes restantes, es posible instalarlos usando un virtual-env.
+        Para los componentes restantes, es posible instalarlos usando un "virtual environment" de python.
