@@ -16,11 +16,14 @@ El Ecosistema de Socios
 La Fundación MxOS trabajará para construir y apoyar una red de socios tecnológicos capaces de ofrecer servicios de alta calidad. El
 rol de la Fundación en este ecosistema incluye:
 
-* **Fomentar la participación:** Animar a empresas de TI mexicanas a desarrollar capacidades en MxOS.
+**Fomentar la participación:**
+    Animar a empresas de TI mexicanas a desarrollar capacidades en MxOS.
 
-* **Facilitar conexiones:** Ayudar a los usuarios a encontrar proveedores de servicios adecuados.
+**Facilitar conexiones:**
+    Ayudar a los usuarios a encontrar proveedores de servicios adecuados.
 
-* **Posibles Programas:** Desarrollar programas de partnership, certificación de profesionales o empresas (a futuro).
+**Posibles Programas:**
+    Desarrollar programas de partnership, certificación de profesionales o empresas (a futuro).
 
 .. note::
     Se planea crear un directorio de socios oficial en el sitio web de MxOS.

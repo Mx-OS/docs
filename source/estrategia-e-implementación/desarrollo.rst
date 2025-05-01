@@ -12,20 +12,24 @@ Base: CentOS Stream
 ===================
 La decisión de utilizar **CentOS Stream** como la base fundamental de MxOS nos permite:
 
-* **Aprovechar una Base Enterprise:** Heredamos la estabilidad, seguridad y rendimiento de nivel empresarial del ecosistema RHEL
-  (Red Hat Enterprise Linux), del cual CentOS Stream es el flujo de desarrollo principal.
+**Aprovechar una Base Enterprise:**
+    Heredamos la estabilidad, seguridad y rendimiento de nivel empresarial del ecosistema RHEL (Red Hat Enterprise Linux), del cual
+    CentOS Stream es el flujo de desarrollo principal.
 
-* **Reutilizar Infraestructura y Herramientas:** Adoptamos las herramientas de construcción (`rpm`, `mock`, `koji`), gestión de
-  paquetes (`dnf`) e instalación (Anaconda) probadas y estandarizadas del ecosistema Fedora/CentOS/RHEL.
+**Reutilizar Infraestructura y Herramientas:**
+    Adoptamos las herramientas de construcción (`rpm`, `mock`, `koji`), gestión de paquetes (`dnf`) e instalación (Anaconda)
+    probadas y estandarizadas del ecosistema Fedora/CentOS/RHEL.
 
-* **Apalancar Documentación Existente:** Nos beneficiamos de la extensa documentación disponible para CentOS Stream y RHEL,
-  reduciendo significativamente el esfuerzo de documentación base.
+**Apalancar Documentación Existente:**
+    Nos beneficiamos de la extensa documentación disponible para CentOS Stream y RHEL, reduciendo significativamente el esfuerzo de
+    documentación base.
 
-* **Beneficiarnos del Aprendizaje Acumulado:** Capitalizamos las décadas de experiencia, lecciones learnedas y ciclos de prueba y
-  error que han conformado CentOS Stream, evitando obstáculos comunes en el desarrollo de distribuciones.
+**Beneficiarnos del Aprendizaje Acumulado:**
+    Capitalizamos las décadas de experiencia, lecciones learnedas y ciclos de prueba y error que han conformado CentOS Stream,
+    evitando obstáculos comunes en el desarrollo de distribuciones.
 
-* **Compatibilidad:** Obtenemos una amplia compatibilidad de hardware y software gracias a la extensa base de usuarios y pruebas del
-  ecosistema RHEL.
+**Compatibilidad:**
+    Obtenemos una amplia compatibilidad de hardware y software gracias a la extensa base de usuarios y pruebas del ecosistema RHEL.
 
 Este punto de partida nos permite acelerar el desarrollo inicial y concentrarnos en el valor añadido específico para México.
 
@@ -34,52 +38,60 @@ Enfoque del Desarrollo de MxOS (Adaptación y Complemento)
 Al partir de CentOS Stream, nuestro esfuerzo de desarrollo **se concentra en adaptar y complementar** esta sólida base para
 satisfacer las necesidades específicas de México. Las tareas principales del equipo y la comunidad MxOS serán:
 
-* **Reutilización Máxima:** Utilizar los paquetes binarios y fuentes de CentOS Stream siempre que sea posible, minimizando la
-  necesidad de recompilar o modificar el núcleo base.
+**Reutilización Máxima:**
+    Utilizar los paquetes binarios y fuentes de CentOS Stream siempre que sea posible, minimizando la necesidad de recompilar o
+    modificar el núcleo base.
 
-* **Identidad MxOS:** Aplicar la marca, temas visuales (artwork), fondos de pantalla y otros elementos gráficos propios de MxOS para
-  darle una identidad distintiva.
+**Identidad MxOS:**
+    Aplicar la marca, temas visuales (artwork), fondos de pantalla y otros elementos gráficos propios de MxOS para darle una
+    identidad distintiva.
 
-* **Selección y Curación de Paquetes:** Definir los conjuntos de paquetes que se instalarán por defecto para diferentes perfiles de
-  uso (ej. escritorio estándar, servidor básico, estación de trabajo para desarrollo), posiblemente eliminando software no relevante
-  y añadiendo otros.
+**Selección y Curación de Paquetes:**
+    Definir los conjuntos de paquetes que se instalarán por defecto para diferentes perfiles de uso (ej. escritorio estándar,
+    servidor básico, estación de trabajo para desarrollo), posiblemente eliminando software no relevante y añadiendo otros.
 
-* **Adición de Software Esencial Faltante:** Empaquetar y mantener en **repositorios propios de MxOS** aquellas aplicaciones y
-  herramientas clave que no formen parte de CentOS Stream pero sean consideradas esenciales para los usuarios mexicanos (ej. suites
-  ofimáticas, herramientas de usuario final, aplicaciones de servidor complementarias).
+**Adición de Software Esencial Faltante:**
+    Empaquetar y mantener en **repositorios propios de MxOS** aquellas aplicaciones y herramientas clave que no formen parte de
+    CentOS Stream pero sean consideradas esenciales para los usuarios mexicanos (ej. suites ofimáticas, herramientas de usuario
+    final, aplicaciones de servidor complementarias).
 
-* **Configuración y Localización Optimizadas:** Establecer configuraciones predeterminadas adaptadas a México (idioma es-MX, teclado
-  latinoamericano, zona horaria, etc.) y asegurar una localización completa.
+**Configuración y Localización Optimizadas:**
+    Establecer configuraciones predeterminadas adaptadas a México (idioma es-MX, teclado latinoamericano, zona horaria, etc.) y
+    asegurar una localización completa.
 
-* **Exploración de Variantes Inmutables:** Investigar y potencialmente desarrollar **ediciones inmutables** de MxOS (similares a
-  Fedora Silverblue/Kinoite) utilizando tecnologías como **OSTree** y `rpm-ostree`. Estas ediciones ofrecerían mayor robustez,
-  actualizaciones atómicas y un paradigma de gestión moderno para casos de uso específicos (escritorios, edge, contenedores).
+**Exploración de Variantes Inmutables:**
+    Investigar y potencialmente desarrollar **ediciones inmutables** de MxOS (similares a Fedora Silverblue/Kinoite) utilizando
+    tecnologías como **OSTree** y `rpm-ostree`. Estas ediciones ofrecerían mayor robustez, actualizaciones atómicas y un paradigma
+    de gestión moderno para casos de uso específicos (escritorios, edge, contenedores).
 
-* **Aseguramiento de la Calidad (QA):** Probar la distribución MxOS completa, enfocándose en la correcta integración de los
-  componentes añadidos, las configuraciones personalizadas, las variantes (incluyendo las inmutables si se desarrollan) y la
-  compatibilidad general, complementando las pruebas de CentOS Stream.
+**Aseguramiento de la Calidad (QA):**
+    Probar la distribución MxOS completa, enfocándose en la correcta integración de los componentes añadidos, las configuraciones
+    personalizadas, las variantes (incluyendo las inmutables si se desarrollan) y la compatibilidad general, complementando las
+    pruebas de CentOS Stream.
 
 Herramientas y Procesos
 =======================
 Aprovecharemos las herramientas estándar del ecosistema:
 
-* **Empaquetado:** `rpm` y `spec files`.
+**Empaquetado:** `rpm` y `spec files`.
 
-* **Gestión de Paquetes:** `dnf` (y `rpm-ostree` para variantes inmutables).
+**Gestión de Paquetes:** `dnf` (y `rpm-ostree` para variantes inmutables).
 
-* **Construcción:** Sistemas como `mock` y potencialmente `Koji` para los repositorios MxOS.
+**Construcción:** Sistemas como `mock` y potencialmente `Koji` para los repositorios MxOS.
 
-* **Instalador:** Personalización del instalador Anaconda.
+**Instalador:** Personalización del instalador Anaconda.
 
-* **Desarrollo Abierto:** Repositorios públicos (GitLab/GitHub) para los paquetes y configuraciones específicas de MxOS, y un bug
-  tracker público.
+**Desarrollo Abierto:** Repositorios públicos (GitLab/GitHub) para los paquetes y configuraciones específicas de MxOS, y un bug
+tracker público.
 
 Colaboración (Upstream y Local)
 ===============================
-* **CentOS Stream:** Interactuaremos con la comunidad CentOS Stream reportando bugs encontrados en la base que afecten a MxOS.
+**CentOS Stream:**
+    Interactuaremos con la comunidad CentOS Stream reportando bugs encontrados en la base que afecten a MxOS.
 
-* **Comunidad MxOS:** Fomentaremos las contribuciones locales para empaquetar software adicional, mejorar la localización, realizar
-  pruebas y desarrollar documentación específica de MxOS.
+**Comunidad MxOS:**
+    Fomentaremos las contribuciones locales para empaquetar software adicional, mejorar la localización, realizar pruebas y
+    desarrollar documentación específica de MxOS.
 
 Ciclo de Vida y Actualizaciones
 ===============================

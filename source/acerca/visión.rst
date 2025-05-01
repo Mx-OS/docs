@@ -19,10 +19,17 @@ Un Pilar de Software Libre y Código Abierto
 ===========================================
 Nuestra visión está intrínsecamente ligada a los principios del **Software Libre y de Código Abierto (FOSS)**. Creemos en:
 
-* **Transparencia:** Código fuente abierto que puede ser auditado por cualquiera, generando confianza.
-* **Libertad:** El derecho de usar, estudiar, modificar y distribuir el software, adaptándolo a necesidades específicas.
-* **Colaboración:** Aprovechar y contribuir al ecosistema global FOSS, fomentando una cultura de desarrollo abierto en México.
-* **Sostenibilidad:** Modelos de desarrollo y negocio que no dependen de licencias restrictivas.
+**Transparencia:**
+    Código fuente abierto que puede ser auditado por cualquiera, generando confianza.
+
+**Libertad:**
+    El derecho de usar, estudiar, modificar y distribuir el software, adaptándolo a necesidades específicas.
+
+**Colaboración:**
+    Aprovechar y contribuir al ecosistema global FOSS, fomentando una cultura de desarrollo abierto en México.
+
+**Sostenibilidad:**
+    Modelos de desarrollo y negocio que no dependen de licencias restrictivas.
 
 MxOS será un estandarte de estos principios en el contexto mexicano.
 
@@ -43,10 +50,17 @@ Plataforma de Colaboración Multisectorial
 =========================================
 El éxito de MxOS depende de la **colaboración activa y coordinada** entre diversos actores:
 
-* **Gobierno:** Como adoptante temprano, impulsor y posible financiador.
-* **Iniciativa Privada:** Aportando casos de uso, inversión y desarrollando servicios.
-* **Academia:** Contribuyendo con investigación, desarrollo y formación de talento.
-* **Comunidad:** Usuarios y desarrolladores aportando código, documentación, pruebas y difusión.
+**Gobierno:**
+    Como adoptante temprano, impulsor y posible financiador.
+
+**Iniciativa Privada:**
+    Aportando casos de uso, inversión y desarrollando servicios.
+
+**Academia:**
+    Contribuyendo con investigación, desarrollo y formación de talento.
+
+**Comunidad:**
+    Usuarios y desarrolladores aportando código, documentación, pruebas y difusión.
 
 MxOS debe ser un punto de encuentro donde estos sectores trabajen juntos por un objetivo común.
 

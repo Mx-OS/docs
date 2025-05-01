@@ -27,27 +27,33 @@ Identificamos los siguientes segmentos clave para la adopción de MxOS:
 
 Enfoque Inicial Propuesto
 -------------------------
+**Comunidad Tecnológica y Educativa:**
+    Serán los adoptantes tempranos (early adopters), cruciales para obtener retroalimentación, contribuciones iniciales y generar
+    evangelizadores. Facilitaremos el acceso y la experimentación en estos grupos.
 
-* **Comunidad Tecnológica y Educativa:** Serán los adoptantes tempranos (early adopters), cruciales para obtener retroalimentación,
-  contribuciones iniciales y generar evangelizadores. Facilitaremos el acceso y la experimentación en estos grupos.
-
-* **Programas Piloto en Gobierno y PYMEs Selectas:** Buscaremos activamente implementar proyectos piloto controlados en entidades
-  públicas y empresas amigables para demostrar la viabilidad, recabar datos y construir casos de éxito iniciales.
+**Programas Piloto en Gobierno y PYMEs Selectas:**
+    Buscaremos activamente implementar proyectos piloto controlados en entidades públicas y empresas amigables para demostrar la
+    viabilidad, recabar datos y construir casos de éxito iniciales.
 
 Comunicación de Valor
 =====================
 
 Es fundamental **comunicar los beneficios específicos** de MxOS para cada segmento:
 
-* **Gobierno:** Soberanía, seguridad, control, auditabilidad, potencial de estandarización y ahorro.
+**Gobierno:**
+    Soberanía, seguridad, control, auditabilidad, potencial de estandarización y ahorro.
 
-* **Educación:** Acceso a FOSS, bajo costo, plataforma para enseñanza técnica, personalización.
+**Educación:**
+    Acceso a FOSS, bajo costo, plataforma para enseñanza técnica, personalización.
 
-* **PYMEs:** Estabilidad, seguridad, soporte local accesible (comunitario y profesional), alternativa a costos de licenciamiento.
+**PYMEs:**
+    Estabilidad, seguridad, soporte local accesible (comunitario y profesional), alternativa a costos de licenciamiento.
 
-* **Comunidad Tech:** Participación en un proyecto nacional FOSS, transparencia, capacidad de personalización y contribución.
+**Comunidad Tech:**
+    Participación en un proyecto nacional FOSS, transparencia, capacidad de personalización y contribución.
 
-* **Empresas:** (A futuro) Estabilidad RHEL-like, seguridad, soporte profesional robusto a través del ecosistema.
+**Empresas:**
+    (A futuro) Estabilidad RHEL-like, seguridad, soporte profesional robusto a través del ecosistema.
 
 Acciones Clave para Impulsar la Adopción
 ========================================

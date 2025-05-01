@@ -14,48 +14,61 @@ directa de todos los servicios.
 
 Objetivos del Ecosistema
 ========================
-* **Valor para los Usuarios:** Asegurar que los usuarios (especialmente empresariales, gubernamentales, PYMEs e individuales) tengan
-  acceso a soporte técnico experto, implementación, formación y otros servicios profesionales adecuados a sus necesidades.
+**Valor para los Usuarios:**
+    Asegurar que los usuarios (especialmente empresariales, gubernamentales, PYMEs e individuales) tengan acceso a soporte técnico
+    experto, implementación, formación y otros servicios profesionales adecuados a sus necesidades.
 
-* **Oportunidad Económica Local:** Crear un mercado para que empresas y profesionales de TI mexicanos, **incluyendo pequeños
-  negocios y técnicos independientes**, generen ingresos y empleos ofreciendo servicios basados en MxOS.
+**Oportunidad Económica Local:**
+    Crear un mercado para que empresas y profesionales de TI mexicanos, **incluyendo pequeños negocios y técnicos independientes**,
+    generen ingresos y empleos ofreciendo servicios basados en MxOS.
 
-* **Sostenibilidad del Proyecto:** Un ecosistema fuerte contribuye indirectamente a la sostenibilidad de MxOS al aumentar su
-  relevancia, adopción y potencialmente atraer inversión o patrocinio hacia la Fundación.
+**Sostenibilidad del Proyecto:**
+    Un ecosistema fuerte contribuye indirectamente a la sostenibilidad de MxOS al aumentar su relevancia, adopción y potencialmente
+    atraer inversión o patrocinio hacia la Fundación.
 
-* **Impulso a la Adopción:** La disponibilidad de servicios profesionales locales y accesibles reduce las barreras para la adopción
-  de MxOS en todo tipo de entornos.
+**Impulso a la Adopción:**
+    La disponibilidad de servicios profesionales locales y accesibles reduce las barreras para la adopción de MxOS en todo tipo de
+    entornos.
 
 Participantes del Ecosistema
 ============================
 Buscamos involucrar activamente a un espectro amplio de actores, con un **énfasis particular en habilitar a los proveedores locales
 existentes**:
 
-* **Empresas de Servicios de TI:** Integradores de sistemas, consultoras, empresas de soporte técnico, **especialmente aquellas de
-  tamaño pequeño y mediano con presencia regional**.
+**Empresas de Servicios de TI:**
+    Integradores de sistemas, consultoras, empresas de soporte técnico, **especialmente aquellas de tamaño pequeño y mediano con
+    presencia regional**.
 
-* **Consultores y Técnicos Independientes:** Profesionales autónomos con experiencia en Linux, redes, seguridad y soporte técnico
-  que ya atienden al mercado local de individuos y PYMEs.
+**Consultores y Técnicos Independientes:**
+    Profesionales autónomos con experiencia en Linux, redes, seguridad y soporte técnico que ya atienden al mercado local de
+    individuos y PYMEs.
 
-* **Centros de Formación:** Instituciones que puedan ofrecer cursos y capacitación sobre MxOS.
+**Centros de Formación:**
+    Instituciones que puedan ofrecer cursos y capacitación sobre MxOS.
 
-* **Desarrolladores de Software:** Empresas o individuos que creen aplicaciones o soluciones específicas sobre la plataforma MxOS.
+**Desarrolladores de Software:**
+    Empresas o individuos que creen aplicaciones o soluciones específicas sobre la plataforma MxOS.
 
-* **Proveedores de Hardware:** Empresas interesadas en certificar sus equipos o vender hardware con MxOS preinstalado.
+**Proveedores de Hardware:**
+    Empresas interesadas en certificar sus equipos o vender hardware con MxOS preinstalado.
 
 Rol de la Fundación MxOS
 ========================
 La Fundación desempeñará un rol activo, pero principalmente **facilitador**, para nutrir el ecosistema:
 
-* **Promoción y Difusión:** Dar a conocer las oportunidades de negocio y servicio dentro del ecosistema MxOS.
+**Promoción y Difusión:**
+    Dar a conocer las oportunidades de negocio y servicio dentro del ecosistema MxOS.
 
-* **Conexión:** Facilitar el contacto entre usuarios que buscan servicios y los socios que los ofrecen.
+**Conexión:**
+    Facilitar el contacto entre usuarios que buscan servicios y los socios que los ofrecen.
 
-* **Habilitación (Enablement):** Proveer a los socios acceso a información técnica, versiones de desarrollo, directrices de marca y,
-  crucialmente, **programas de capacitación y certificación**.
+**Habilitación (Enablement):**
+    Proveer a los socios acceso a información técnica, versiones de desarrollo, directrices de marca y, crucialmente, **programas de
+    capacitación y certificación**.
 
-* **Establecimiento de Estándares (Potencial):** Desarrollar programas de partnership o certificación para ayudar a garantizar la
-  calidad de los servicios y generar confianza en el mercado.
+**Establecimiento de Estándares (Potencial):**
+    Desarrollar programas de partnership o certificación para ayudar a garantizar la calidad de los servicios y generar confianza en
+    el mercado.
 
 Iniciativas Clave para Construir el Ecosistema
 ==============================================
