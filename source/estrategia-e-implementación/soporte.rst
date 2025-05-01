@@ -20,8 +20,7 @@ Invertiremos esfuerzo en crear y mantener:
 
 * **Preguntas Frecuentes (FAQs):** Respuestas rápidas a las dudas más comunes.
 
-* **Base de Conocimiento / Wiki (Potencial):** Un espacio colaborativo para tutoriales, trucos y soluciones aportadas por la
-  comunidad y el equipo.
+* **Base de Conocimiento / Wiki (Potencial):** Un espacio colaborativo para tutoriales, trucos y soluciones aportadas por la comunidad y el equipo.
 
 Esta documentación buscará capacitar a los usuarios para que resuelvan muchos problemas por sí mismos.
 
@@ -83,19 +82,22 @@ Aclarando el rol de los canales previamente mencionados:
 
 Rol de la Fundación en el Soporte
 =================================
-El rol principal de la Fundación MxOS *no* es ser el proveedor primario de soporte técnico directo (ni gratuito ni de pago masivo),
-sino:
+El rol principal de la Fundación MxOS *no* es ser el proveedor primario de soporte técnico directo, sino **habilitar y facilitar**
+un soporte efectivo a través de:
 
 * **Garantizar Documentación de Calidad:** Es la base de todo el soporte.
 
-* **Facilitar Canales Comunitarios:** Proveer la infraestructura y fomentar la participación.
+* **Facilitar Canales Comunitarios:** Proveer la infraestructura y fomentar la participación activa y respetuosa.
 
-* **Habilitar el Ecosistema de Soporte Profesional:** Conectar usuarios con socios cualificados.
+* **Habilitar el Ecosistema de Soporte Profesional:** Conectar usuarios con socios cualificados y **desarrollar herramientas como la
+  Certificación Básica gratuita y autodidacta** para validar conocimientos fundamentales y elevar la calidad del soporte ofrecido
+  por la comunidad y los socios potenciales.
 
-* **Gestionar el Bug Tracker Central:** Asegurar que los reportes de errores sean procesados.
+* **Gestionar el Bug Tracker Central:** Asegurar que los reportes de errores técnicos sean procesados adecuadamente por el equipo de
+  desarrollo o la comunidad.
 
 ---
 
 Con esta estrategia combinada, buscamos asegurar que cada usuario de MxOS pueda encontrar la ayuda que necesita, ya sea a través de
 la autoayuda con documentación de calidad, la colaboración comunitaria o los servicios profesionales garantizados ofrecidos por
-nuestro creciente ecosistema de socios mexicanos.
+nuestro creciente ecosistema de socios mexicanos, cuya capacitación inicial facilitaremos.

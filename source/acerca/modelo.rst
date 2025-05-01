@@ -3,9 +3,9 @@
 ######
 Modelo
 ######
-MxOS opera bajo un modelo cuidadosamente diseñado para asegurar su **sostenibilidad a largo plazo**, fomentar la **colaboración
-abierta** y maximizar su **impacto** en el objetivo de la soberanía tecnológica, todo ello respetando los principios del software
-libre.
+
+MxOS opera bajo un modelo cuidadosamente diseñado para asegurar su sostenibilidad a largo plazo, fomentar la colaboración abierta y
+maximizar su impacto en el objetivo de la soberanía tecnológica, todo ello respetando los principios del software libre.
 
 Este modelo se compone de varios elementos interconectados:
 
@@ -24,6 +24,7 @@ Este enfoque FOSS es esencial para eliminar barreras de entrada y promover una a
 
 Organización: La Fundación MxOS
 ===============================
+
 La **Fundación MxOS** (nombre provisional) actúa como la **entidad neutral y administradora** del proyecto. Sus responsabilidades
 clave dentro de este modelo incluyen:
 
@@ -42,7 +43,7 @@ Desarrollo Colaborativo y Adaptativo
 ====================================
 El modelo de desarrollo se basa en:
 
-* **Reutilización FOSS:** Aprovechar componentes de software libre maduros y estables.
+* **Reutilización FOSS:** Aprovechar componentes de software libre maduros y estables (con CentOS Stream como base inicial).
 
 * **Contribuciones Abiertas:** Un proceso claro y abierto para que la comunidad y los socios contribuyan al código, documentación y
   pruebas.
@@ -57,17 +58,19 @@ La viabilidad a largo plazo de la Fundación y del proyecto MxOS se basa en un *
 * **Fondos Públicos:** A través de subvenciones, contratos o convenios con entidades gubernamentales alineadas con la soberanía
   tecnológica.
 
-* **Sector Privado:** Mediante patrocinios, cuotas de membresía corporativa o contratos de servicios de alto nivel (ej. gestión de
-  desarrollos).
+* **Sector Privado:** Mediante patrocinios, cuotas de membresía corporativa (Programa de Socios) o contratos de servicios de alto
+  nivel (ej. gestión de desarrollos financiados).
 
-* **Comunidad:** A través de donaciones individuales o colectivas.
+* **Comunidad:** A través de **donaciones** individuales o empresariales de aquellos que apoyan la misión del proyecto.
 
-Esta diversificación reduce la dependencia de una única fuente y aporta resiliencia.
+Esta diversificación reduce la dependencia de una única fuente y aporta resiliencia. (Ver :ref:`funding_strategy_mxos` para más
+detalles).
 
 El Ecosistema de Servicios (Modelo Económico)
 =============================================
 Este es un pilar fundamental del modelo general. Aunque MxOS es gratuito, se **fomenta activamente la creación de un ecosistema
-económico** donde empresas y profesionales **generan valor ofreciendo servicios** alrededor de MxOS. Este modelo:
+económico** donde empresas y profesionales **generan valor ofreciendo servicios profesionales de pago** alrededor de MxOS. Este
+modelo:
 
 * **Genera Oportunidades Locales:** Crea empleos y negocios en México.
 
@@ -77,23 +80,27 @@ económico** donde empresas y profesionales **generan valor ofreciendo servicios
 * **Asegura Soporte Profesional:** Garantiza que existan opciones de soporte comercial para usuarios que lo requieran.
 
 * **Rol Facilitador de la Fundación:** La Fundación ayuda a conectar usuarios con proveedores, puede establecer programas de
-  partnership o certificación, y promueve las oportunidades dentro del ecosistema.
+  partnership o certificación, y promueve las oportunidades dentro del ecosistema. (Ver :ref:`ecosystem_strategy_mxos` para más
+  detalles).
 
 Modelo de Soporte
 =================
-El soporte a usuarios se plantea bajo un modelo **multicanal y potencialmente escalonado**:
+El soporte a usuarios se plantea bajo un **modelo multicanal y escalonado**, gestionado principalmente por la comunidad y el
+ecosistema de socios:
 
-* **Soporte Comunitario:** Gratuito, a través de foros, listas de correo, canales de Telegram y/o WhatsApp, gestionado por la
-  comunidad y voluntarios.
+* **Soporte Comunitario:** Gratuito, a través de foros, listas de correo, canales de chat (Telegram, etc.), gestionado por la
+  comunidad bajo un modelo de "mejor esfuerzo".
 
-* **Soporte Profesional:** De pago, ofrecido por los socios del ecosistema (o potencialmente un nivel básico/premium por la
-  Fundación), a través de canales como Call Center, tickets de soporte, contratos de servicio (SLAs).
+* **Soporte Profesional:** De pago, ofrecido **exclusivamente por los socios del ecosistema MxOS**, a través de canales como Call
+  Center, tickets de soporte, y contratos con SLAs definidos.
 
-Este enfoque combinado busca asegurar que todos los usuarios, desde individuos hasta grandes organizaciones, puedan encontrar el
-nivel de ayuda que necesitan.
+* **Documentación:** Considerada la **base fundamental** del soporte, mantenida y garantizada por la Fundación.
+
+La Fundación facilita los canales comunitarios y habilita al ecosistema para ofrecer el soporte profesional. (Ver
+:ref:`support_strategy_mxos` para más detalles).
 
 ---
 
 En conjunto, este modelo busca equilibrar los ideales del software libre con la necesidad de sostenibilidad financiera y soporte
 profesional, creando un círculo virtuoso donde un sistema operativo libre impulsa un ecosistema económico local, y este ecosistema a
-su vez fortalece al sistema operativo y a la Fundación que lo respalda.*
+su vez fortalece al sistema operativo y a la Fundación que lo respalda.
