@@ -6,6 +6,7 @@ MxOS
    :caption: Contenido:
 
    acerca/index
+   colaboración/index
 
 Índices y tablas
 ================
