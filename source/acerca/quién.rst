@@ -1,4 +1,5 @@
-¿Quiénes Somos?
+¿Quiénes somos?
 ===============
 
-Somos una iniciativa independiente.
+.. todo::
+    Escribir la sección de ¿Quiénes somos?

@@ -8,6 +8,8 @@ Aquí podrás aprender a colaborar con la documentación.
     instalación
     uso
 
+Puedes venir a https://gitlab.com/mxos/website, levantar un reporte y colaborar con nosotros sobre el contenido del proyecto.
+
 Referencias
 ============
 Inicio rápido:

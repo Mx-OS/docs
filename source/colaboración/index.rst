@@ -6,3 +6,4 @@ Aquí podrás encontrar información relevante sobre como colaborar con el proye
 .. toctree::
 
    documentación/index
+   por-hacer
