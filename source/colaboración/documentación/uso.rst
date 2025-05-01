@@ -43,5 +43,5 @@ Como generar un ePub
     make epub
 
     # localización
-    build/epub/mxos.epub
+    build/epub/MxOS.epub
 
