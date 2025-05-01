@@ -1,0 +1,293 @@
+/* --- Variables CSS (Custom Properties) --- */
+:root {
+	--font-primary: 'Metrophobic', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	--color-text-body: #212529;
+	--color-text-heading: #000000;
+	--color-text-muted: #495057;
+	--color-text-light: #6c757d;
+	--color-primary: #006847; /* Verde Bandera */
+	--color-primary-dark: #004d34;
+	--color-secondary: #CE1126; /* Rojo Bandera (no usado actualmente, pero disponible) */
+	--color-bg: #ffffff;
+	--color-bg-alt: #f8f9fa;
+	--color-border: #e9ecef;
+	--container-max-width: 1100px;
+	--section-padding-y: clamp(3rem, 8vw, 6rem);
+	--section-padding-x: clamp(1rem, 5vw, 3rem);
+}
+
+/* --- Reset Básico y Configuraciones Globales --- */
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 100%;
+}
+
+body {
+	font-family: var(--font-primary);
+	line-height: 1.6;
+	background-color: var(--color-bg);
+	color: var(--color-text-body);
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+main {
+	flex-grow: 1;
+}
+
+/* --- Tipografía --- */
+h1, h2, h3 {
+	color: var(--color-text-heading);
+	margin-bottom: 0.75em;
+	line-height: 1.2;
+	font-weight: 700;
+}
+
+h1 { font-size: clamp(2.5rem, 5vw, 3.5rem); }
+h2 { font-size: clamp(1.8rem, 4vw, 2.5rem); text-align: center; margin-bottom: 1.5em;}
+h3 { font-size: 1.25rem; color: var(--color-primary); } /* Verde para subtítulos */
+
+p { margin-bottom: 1em; max-width: 65ch; }
+
+a {
+	color: var(--color-primary);
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+a:hover, a:focus { color: var(--color-primary-dark); }
+
+strong { font-weight: 700; } /* Podría quitarse si 700 es el default de body/headings */
+
+/* --- Layout y Secciones Comunes --- */
+header, section, footer {
+	padding: var(--section-padding-y) var(--section-padding-x);
+	max-width: var(--container-max-width);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	padding-top: 1.5rem;
+	padding-bottom: 0;
+	background-color: var(--color-bg);
+}
+
+/* Separador sutil entre secciones de main */
+main section {
+	border-bottom: 1px solid var(--color-border);
+}
+main section:last-of-type {
+	border-bottom: none;
+}
+
+/* --- Componentes Específicos --- */
+.hero-content {
+	text-align: center;
+	padding: clamp(2rem, 6vw, 4rem) 0;
+}
+.hero-content p {
+	font-size: clamp(1rem, 2.5vw, 1.2rem);
+	color: var(--color-text-muted);
+	margin: 0 auto 2em auto; /* Shorthand margin */
+}
+
+#vision h2, #publico h2, #unete h2 {
+	margin-bottom: 2rem; /* Más espacio bajo títulos */
+}
+
+.vision-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 2.5rem;
+	text-align: center;
+}
+.vision-grid p {
+	color: var(--color-text-muted);
+	font-size: 0.95rem;
+	max-width: none;
+	margin: 0 auto; /* Centrar p dentro del grid item */
+}
+.vision-grid h3 {
+	margin-bottom: 0.5em;
+}
+
+/* Agrupación de Párrafos Centrados */
+#publico p, #unete p {
+    text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#publico p {
+	font-size: 1.1rem;
+}
+#unete p {
+    max-width: 65ch;   /* Ancho máximo específico */
+    margin-bottom: 1.5em; /* Espacio antes del botón */
+}
+
+#unete {
+	text-align: center; /* Necesario para centrar botón inline-block */
+}
+
+/* Navegación Sutil */
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem var(--section-padding-x); /* Usa variable para padding horizontal */
+	border-bottom: 1px solid var(--color-border);
+	max-width: var(--container-max-width); /* Hereda o define explícitamente */
+	margin: 0 auto;
+}
+nav a {
+	color: var(--color-text-muted);
+	font-size: 0.95rem;
+	padding: 0.5rem 0; /* Shorthand padding */
+	margin-left: 1.5rem;
+	position: relative;
+	font-weight: 400; /* Asegura peso normal */
+}
+nav a:first-child { /* Logo/Nombre */
+	margin-left: 0;
+	font-weight: 700;
+	color: var(--color-text-heading);
+	font-size: 1.1rem;
+}
+nav a::after { /* Línea hover */
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: var(--color-primary);
+	transition: width 0.3s ease;
+}
+nav a:hover::after, nav a:focus::after, nav a.active::after {
+	width: 100%;
+}
+nav a.active {
+	color: var(--color-text-heading);
+}
+
+/* Botones */
+.cta-button {
+	display: inline-block;
+	padding: 0.8em 1.8em;
+	border-radius: 6px;
+	font-size: 1rem;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+	border: 2px solid transparent;
+	margin-top: 0.5em;
+	background-color: var(--color-primary);
+	color: var(--color-bg);
+	font-weight: 700;
+}
+.cta-button:hover, .cta-button:focus {
+	background-color: var(--color-primary-dark);
+	color: var(--color-bg);
+	transform: translateY(-3px);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.cta-button.secondary {
+	background-color: transparent;
+	color: var(--color-primary);
+	border-color: var(--color-primary);
+	font-weight: 400;
+}
+.cta-button.secondary:hover, .cta-button.secondary:focus {
+	background-color: color-mix(in srgb, var(--color-primary) 10%, transparent); /* Verde muy pálido */
+    border-color: var(--color-primary-dark);
+	color: var(--color-primary-dark);
+	box-shadow: none;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	padding-top: 2rem; /* Usa valores específicos si clamp no aplica bien aquí */
+    padding-bottom: 2rem;
+	border-top: 1px solid var(--color-border);
+	font-size: 0.9rem;
+	color: var(--color-text-light);
+}
+
+/* --- Responsividad --- */
+@media (max-width: 768px) {
+	nav {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.nav-links {
+		margin-top: 0.5rem;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+	nav a { margin: 0 1rem 0 0; } /* Shorthand margin */
+    nav a:last-child { margin-right: 0; }
+	nav a:first-child { margin: 0 0 0.5rem 0; } /* Logo */
+
+	.vision-grid {
+		grid-template-columns: 1fr;
+		gap: 2rem;
+		text-align: left;
+	}
+
+    .vision-grid p { margin: 0; } /* Quita centrado */
+
+	h2 { text-align: left; }
+    #unete, #unete p { text-align: left; }
+
+	.hero-content, #publico p { text-align: left; }
+    .hero-content p, #publico p { margin: 0 0 1em 0; } /* Quita centrado y añade margen inferior */
+
+}
+
+/* --- CSS para las líneas animadas (sin cambios funcionales) --- */
+.lines-container {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  width: 100%; height: 100%;
+  overflow: hidden; z-index: -1; pointer-events: none;
+}
+
+.lines {
+  position: absolute; top: 0; left: 0; right: 0; height: 100%;
+  width: 90vw; margin: 0 auto; display: flex; justify-content: space-between;
+}
+
+.line {
+  position: relative; width: 1px; height: 100%;
+  background-color: rgba(233, 236, 239, 0.5); overflow: hidden;
+}
+
+.line::after {
+  content: ''; display: block; position: absolute; height: 15vh; width: 100%;
+  top: -50%; left: 0;
+  animation: drop 7s infinite; animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+
+.line:nth-child(1)::after { background: linear-gradient(to bottom, rgba(0, 104, 71, 0) 0%, rgba(0, 104, 71, 0.8) 75%, rgba(0, 104, 71, 1) 100%); animation-delay: 0.5s; }
+.line:nth-child(2)::after { background: linear-gradient(to bottom, rgba(206, 17, 38, 0) 0%, rgba(206, 17, 38, 0.8) 75%, rgba(206, 17, 38, 1) 100%); animation-delay: 1s; }
+.line:nth-child(3)::after { background: linear-gradient(to bottom, rgba(0, 104, 71, 0) 0%, rgba(0, 104, 71, 0.7) 75%, rgba(0, 104, 71, 0.9) 100%); animation-delay: 1.5s; }
+.line:nth-child(4)::after { background: linear-gradient(to bottom, rgba(206, 17, 38, 0) 0%, rgba(206, 17, 38, 0.7) 75%, rgba(206, 17, 38, 0.9) 100%); animation-delay: 2s; }
+.line:nth-child(5)::after { background: linear-gradient(to bottom, rgba(0, 104, 71, 0) 0%, rgba(0, 104, 71, 0.6) 75%, rgba(0, 104, 71, 0.8) 100%); animation-delay: 2.5s; }
+.line:nth-child(6)::after { background: linear-gradient(to bottom, rgba(206, 17, 38, 0) 0%, rgba(206, 17, 38, 0.6) 75%, rgba(206, 17, 38, 0.8) 100%); animation-delay: 3s; }
+.line:nth-child(7)::after { background: linear-gradient(to bottom, rgba(0, 104, 71, 0) 0%, rgba(0, 104, 71, 0.5) 75%, rgba(0, 104, 71, 0.7) 100%); animation-delay: 3.5s; }
+.line:nth-child(8)::after { background: linear-gradient(to bottom, rgba(206, 17, 38, 0) 0%, rgba(206, 17, 38, 0.5) 75%, rgba(206, 17, 38, 0.7) 100%); animation-delay: 4s; }
+.line:nth-child(9)::after { background: linear-gradient(to bottom, rgba(0, 104, 71, 0) 0%, rgba(0, 104, 71, 0.4) 75%, rgba(0, 104, 71, 0.6) 100%); animation-delay: 4.5s; }
+.line:nth-child(10)::after { background: linear-gradient(to bottom, rgba(206, 17, 38, 0) 0%, rgba(206, 17, 38, 0.4) 75%, rgba(206, 17, 38, 0.6) 100%); animation-delay: 5s; }
+@keyframes drop { 0% { top: -50%; } 100% { top: 110%; } }
+/* --- Fin CSS líneas animadas --- */
