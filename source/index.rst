@@ -7,6 +7,8 @@ MxOS
 
    acerca/index
    colaboración/index
+   productos-y-servicios/index
+   estrategia-e-implementación/index
 
 Índices y tablas
 ================

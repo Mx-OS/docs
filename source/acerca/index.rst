@@ -8,3 +8,6 @@ Información pertinente al proyecto a los colaboradores.
    qué
    quién
    visión
+   misión
+   modelo
+   impacto
