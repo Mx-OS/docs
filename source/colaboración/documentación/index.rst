@@ -13,12 +13,15 @@ Referencias
 Inicio rápido:
     https://www.sphinx-doc.org/en/master/usage/quickstart.html
 
-Referencia de ReStructured Text versión sphinx:
+Referencia para ReStructured Text versión sphinx:
     https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
 
-Referencia de ReStructured Text versión docutils:
+Referencia para ReStructured Text versión docutils:
     https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html
 
-Referencia de furo:
+Referencia para furo:
     https://pradyunsg.me/furo/
+
+Referencia para sphinx{design}:
+    https://sphinx-design.readthedocs.io/en/latest/
 
