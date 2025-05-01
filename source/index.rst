@@ -1,10 +1,16 @@
 MxOS
 ====
-TODO
 
 .. toctree::
    :maxdepth: 2
+   :caption: Contenido:
 
-   acerca/que
-   acerca/quien
-   acerca/vision
+   acerca/index
+
+Índices y tablas
+================
+
+* :ref:`genindex`
+* :ref:`search`
+
+
