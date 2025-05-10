@@ -30,8 +30,6 @@ Contacto:
 
 * sitio: https://ivan.chavero.com.mx
 
-* blog: https://ivan.chavero.com.mx/blog
-
 * facebook: https://facebook.com/imcsk8
 
 * github: https://github.com/imcsk8
