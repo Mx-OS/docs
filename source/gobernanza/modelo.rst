@@ -2,8 +2,8 @@
 Modelo de Gobernanza
 ####################
 
-El Modelo de Gobernanza de la Fundación MxOS está diseñado para asegurar la **integridad, transparencia, rendición de cuentas y la
-fidelidad a la misión** del proyecto. Reconociendo los riesgos de influencias indebidas o corrupción, se establecen mecanismos
+El Modelo de Gobernanza de la Fundación MxOS debe ser diseñado para asegurar la **integridad, transparencia, rendición de cuentas y
+la fidelidad a la misión** del proyecto. Reconociendo los riesgos de influencias indebidas o corrupción, se establecen mecanismos
 robustos para salvaguardar la visión de MxOS y otorgar a la comunidad un rol preponderante en la supervisión y, en casos extremos,
 en la corrección del rumbo.
 
