@@ -22,7 +22,7 @@ Bio:
     virtualización, seguridad y tecnologías web.
 
 Iván "imcsk8" Chavero
---------------------
+---------------------
 Contacto:
 * email: ichavero@chavero.com.mx
 
