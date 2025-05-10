@@ -26,14 +26,25 @@ Características Clave del Producto (OS)
 
 * **Abierto y Transparente:** Código fuente disponible, desarrollo comunitario.
 
-* **Direcciones Futuras:** Se explora una versión tradicional y una **inmutable** y se aspira a la **autosuficiencia técnica** a
-  largo plazo.
+* **Direcciones Futuras:** Se explora una versión **inmutable** (con OSTree) y se aspira a la **autosuficiencia técnica** a largo
+  plazo.
 
-Organización
-------------
-* **Gestión:** A cargo de la **Fundación MxOS** (sin fines de lucro, en formación).
+Organización y Gobernanza
+-------------------------
+* **Entidad Gestora:** La **Fundación MxOS** (sin fines de lucro, en formación) administrará el proyecto.
 
-* **Rol:** Entidad neutral, coordinadora, administradora de fondos y facilitadora.
+* **Principios de Gobernanza:** Transparencia radical, rendición de cuentas, participación comunitaria significativa, legalidad y
+  contrapesos.
+
+* **Máxima Autoridad Comunitaria:** Una **Asamblea de Miembros** con poderes clave, incluyendo la elección y potencial **revocatoria
+  del Consejo Directivo**.
+
+* **Consejo Directivo:** Diverso, electo por los miembros, con términos limitados y reglas para minimizar influencias externas
+  indebidas. Responsable de la estrategia y supervisión.
+
+* **Salvaguardas Clave:** Misión estatutaria difícil de modificar, transparencia financiera (informes públicos), política de
+  conflicto de intereses y protección a denunciantes. El objetivo es "vacunar" a la Fundación contra la corrupción y la desviación
+  de su misión.
 
 Modelo Operativo
 ----------------
@@ -57,7 +68,6 @@ Modelo Operativo
    * **Nivel 2:** Soporte Comunitario gratuito (foros, chat - "mejor esfuerzo").
 
    * **Nivel 3:** Soporte Profesional de pago (vía **Socios del Ecosistema**).
-
 * **Desarrollo (Colaborativo):**
    * Adaptación y mejora sobre CentOS Stream.
 
@@ -85,4 +95,5 @@ Impacto Esperado
 
 ---
 
-MxOS es un proyecto colaborativo que busca usar tecnología abierta para el beneficio estratégico y social de México.
+MxOS es un proyecto colaborativo que busca usar tecnología abierta para el beneficio estratégico y social de México, con una
+estructura de gobernanza diseñada para proteger su misión y asegurar la participación comunitaria.
