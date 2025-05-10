@@ -7,3 +7,4 @@ Aquí podrás encontrar información relevante sobre como colaborar con el proye
 
    documentación/index
    por-hacer
+   contacto
