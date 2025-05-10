@@ -26,8 +26,8 @@ Características Clave del Producto (OS)
 
 * **Abierto y Transparente:** Código fuente disponible, desarrollo comunitario.
 
-* **Direcciones Futuras:** Se explora una versión **inmutable** (con OSTree) y se aspira a la **autosuficiencia técnica** a largo
-  plazo.
+* **Direcciones Futuras:** Se explora una versión tradicional y una **inmutable** y se aspira a la **autosuficiencia técnica** a
+  largo plazo.
 
 Organización
 ------------
@@ -37,7 +37,6 @@ Organización
 
 Modelo Operativo
 ----------------
-
 * **Financiación (Diversificada):**
    * **Sector Público:** Subvenciones, contratos gubernamentales.
 
