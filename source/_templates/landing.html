@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
-		<!-- metadata -->
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<title>MxOS: Linux para México</title>
 
-		<!-- stylesheet -->
-		<link rel="stylesheet" href="_static/landing.css">
-
-		<!-- fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href='//fonts.googleapis.com/css?family=Metrophobic' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="_static/landing.css">
 
-		<!-- favicon -->
 		<link rel="icon" href="/_static/logo.svg">
 	</head>
 	<body>
@@ -37,6 +32,11 @@
 		<header id="inicio">
 			<nav>
 				<a href="#inicio">MxOS</a>
+                <button class="hamburger-menu" aria-label="Toggle menu" aria-expanded="false">
+                    <span class="hamburger-menu__line"></span>
+                    <span class="hamburger-menu__line"></span>
+                    <span class="hamburger-menu__line"></span>
+                </button>
 				<div class="nav-links">
 					<a href="#vision">Visión</a>
 					<a href="#publico">Público</a>
@@ -132,37 +132,32 @@
 			document.getElementById('year').textContent = new Date().getFullYear();
 
 			// Script para resaltar el enlace activo en el menú (opcional)
-			// Selecciona solo secciones con ID en main
 			const sections = document.querySelectorAll('main section[id]');
-			const navLinks = document.querySelectorAll('.nav-links a');
+			const navLinksAnchors = document.querySelectorAll('.nav-links a');
 			window.onscroll = () => {
-				// Inicia sin sección activa detectada por scroll
 				let current = '';
-				let headerHeight = document.querySelector('nav') ? document.querySelector('nav').offsetHeight + 20 : 60; // Ajusta el offset
+				let headerHeight = document.querySelector('nav') ? document.querySelector('nav').offsetHeight + 20 : 60;
 
 				sections.forEach(section => {
 					const sectionTop = section.offsetTop;
 					const sectionHeight = section.offsetHeight;
 
-					// Detecta si el usuario está viendo la sección (considerando un offset por el nav)
 					if (pageYOffset >= sectionTop - headerHeight && pageYOffset < sectionTop + sectionHeight - headerHeight) {
 						current = section.getAttribute('id');
 					}
 				});
 
-				// Si no se detectó sección por scroll (ej. se está muy arriba), intenta detectar por URL hash
 				if (!current && window.location.hash) {
 					const hashId = window.location.hash.substring(1);
 					if (document.getElementById(hashId)) {
 						current = hashId;
 					}
 				} else if (!current) {
-					// Si no hay hash y estamos arriba, podría activarse 'inicio' o ninguno
-					// Para este ejemplo, no activamos ninguno si no hay scroll en una sección
+					// No action needed
 				}
 
 
-				navLinks.forEach(link => {
+				navLinksAnchors.forEach(link => {
 					const linkHref = link.getAttribute('href');
 					if (linkHref === `#${current}`) {
 						link.classList.add('active');
@@ -171,9 +166,29 @@
 					}
 				});
 			};
-
-			// Ejecuta una vez al cargar por si la página carga con un hash
 			window.dispatchEvent(new Event('scroll'));
+
+            // --- Hamburger Menu Toggle Script ---
+            const hamburgerButton = document.querySelector('.hamburger-menu');
+            const navLinksContainer = document.querySelector('.nav-links');
+
+            hamburgerButton.addEventListener('click', () => {
+                hamburgerButton.classList.toggle('active');
+                navLinksContainer.classList.toggle('active');
+                const isExpanded = hamburgerButton.getAttribute('aria-expanded') === 'true' || false;
+                hamburgerButton.setAttribute('aria-expanded', !isExpanded);
+            });
+
+            // Optional: Close menu when a link is clicked
+            navLinksAnchors.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (navLinksContainer.classList.contains('active')) {
+                        hamburgerButton.classList.remove('active');
+                        navLinksContainer.classList.remove('active');
+                        hamburgerButton.setAttribute('aria-expanded', 'false');
+                    }
+                });
+            });
 		</script>
 	</body>
 </html>
