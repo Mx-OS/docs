@@ -6,6 +6,7 @@ MxOS
    :caption: Contenido:
 
    acerca/index
+   gobernanza/index
    colaboración/index
    productos-y-servicios/index
    estrategia-e-implementación/index

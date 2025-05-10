@@ -12,4 +12,3 @@ Información pertinente al proyecto a los colaboradores.
     misión
     modelo
     impacto
-    gobernanza

@@ -8,7 +8,7 @@ robustos para salvaguardar la visión de MxOS y otorgar a la comunidad un rol pr
 en la corrección del rumbo.
 
 Principios fundamentales de gobernanza
-=====================================
+======================================
 La gobernanza de la Fundación MxOS se regirá por los siguientes principios:
 
 * **Transparencia Radical:** Las decisiones clave, las finanzas y las operaciones serán públicas en la mayor medida posible.
