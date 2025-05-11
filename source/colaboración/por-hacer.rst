@@ -7,12 +7,6 @@ Aquí estará la lista de pendientes.
 .. todolist::
 
 
-Modelo de Gobernanza
---------------------
-Aunque se menciona la Fundación y la colaboración, no se detalla cómo se tomarán las decisiones técnicas y estratégicas. ¿Habrá un
-comité técnico? ¿Cómo votará la comunidad o los miembros? ¿Cómo se resolverán los conflictos? Un modelo de gobernanza claro es
-crucial para un proyecto comunitario.
-
 Guías de Contribución Detalladas
 --------------------------------
 El capítulo de Colaboraciónse enfoca en cómo contribuir a la documentación y la configuración de Sphinx. Falta una guía más amplia
