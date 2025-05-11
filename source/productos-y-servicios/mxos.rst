@@ -54,11 +54,6 @@ Disponibilidad
 Las versiones estables de MxOS estarán disponibles para descarga gratuita desde el sitio web oficial del proyecto (enlace por
 definir). Se ofrecerán imágenes de instalación para diferentes arquitecturas de procesador comunes.
 
-::
-
-    # Ejemplo de futuro enlace (placeholder)
-    [Descargar MxOS](https://descargas.mx-os.mx/latest)
-
 Más Allá del Sistema Operativo
 ==============================
 Si bien MxOS como producto de software es gratuito y libre, el proyecto impulsa un **ecosistema de servicios profesionales**. Para
