@@ -33,13 +33,11 @@ Para instalar lo requerido para colaborar con el proyecto de documentación, deb
                 texlive-upquote \
                 texlive-wrapfig
 
-    .. tab-item:: CentOS Stream 9
+    .. tab-item:: CentOS Stream
 
-        Por lo pronto, no existen los paquetes:
+        Por lo pronto, no existe el paquete:
 
-        * python3-furo
         * sphinx-babel-spanish
-        * python3-sphinx-design
 
         Fuera de eso, las dependencias pudiesen ser instaladas en la misma manera que Fedora pero sin incluir estos dos paquetes.
 
@@ -67,7 +65,9 @@ Para instalar lo requerido para colaborar con el proyecto de documentación, deb
             # como root o, además, puedes usar sudo
             dnf -y install \
                 latexmk \
+                python3-furo \
                 python3-sphinx \
+                python3-sphinx-design \
                 texlive-capt-of \
                 texlive-cmap \
                 texlive-ec \
@@ -76,7 +76,6 @@ Para instalar lo requerido para colaborar con el proyecto de documentación, deb
                 texlive-makeindex \
                 texlive-metafont \
                 texlive-needspace \
-                texlive-oberdiek \
                 texlive-parskip \
                 texlive-tabulary \
                 texlive-tex-gyre \
