@@ -46,3 +46,12 @@ El desarrollo y la filosofía de MxOS se basan en:
 
 En resumen, MxOS no es solo un sistema operativo; es un proyecto país que busca empoderar a México en la era digital a través de la
 tecnología abierta y colaborativa.
+
+Independencia del Proyecto MxOS
+===============================
+El proyecto **MxOS** es una iniciativa autónoma y soberana, concebida y desarrollada con un enfoque específico en el contexto de
+México y sus objetivos de soberanía tecnológica.
+
+Se establece que **MxOS** no tiene ninguna afiliación, dependencia o relación con otros proyectos de software que puedan tener
+nombres similares, como es el caso de la distribución `MX Linux <https://mxlinux.org/>`_. Cada proyecto opera de manera
+independiente con sus propios objetivos y comunidades.
