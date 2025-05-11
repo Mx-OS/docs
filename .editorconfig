@@ -1,0 +1,4 @@
+root = True
+
+[*.rst]
+indent_size = 3
