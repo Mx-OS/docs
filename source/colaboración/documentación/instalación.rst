@@ -39,7 +39,7 @@ Para instalar lo requerido para colaborar con el proyecto de documentación, deb
 
         * sphinx-babel-spanish
 
-        Fuera de eso, las dependencias pudiesen ser instaladas en la misma manera que Fedora pero sin incluir estos dos paquetes.
+        Fuera de eso, las dependencias pudiesen ser instaladas en la misma manera que Fedora pero sin incluir el paquete mencionado.
 
         .. attention::
 
