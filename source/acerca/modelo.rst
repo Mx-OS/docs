@@ -72,7 +72,7 @@ La viabilidad a largo plazo de la Fundación y del proyecto MxOS se basa en un *
 **Comunidad:**
     A través de **donaciones** individuales o empresariales de aquellos que apoyan la misión del proyecto.
 
-Esta diversificación reduce la dependencia de una única fuente y aporta resiliencia. (Ver :ref:`funding_strategy_mxos` para más
+Esta diversificación reduce la dependencia de una única fuente y aporta resiliencia. (Ver :ref:`estrategia_de_financiación` para más
 detalles).
 
 El Ecosistema de Servicios (Modelo Económico)
@@ -92,7 +92,7 @@ modelo:
 
 **Rol Facilitador de la Fundación:**
     La Fundación ayuda a conectar usuarios con proveedores, puede establecer programas de partnership o certificación, y promueve
-    las oportunidades dentro del ecosistema. (Ver :ref:`ecosystem_strategy_mxos` para más detalles).
+    las oportunidades dentro del ecosistema. (Ver :ref:`estrategia_de_ecosistema` para más detalles).
 
 Modelo de Soporte
 =================
@@ -111,7 +111,7 @@ ecosistema de socios:
     Considerada la **base fundamental** del soporte, mantenida y garantizada por la Fundación.
 
 La Fundación facilita los canales comunitarios y habilita al ecosistema para ofrecer el soporte profesional. (Ver
-:ref:`support_strategy_mxos` para más detalles).
+:ref:`estrategia_de_soporte` para más detalles).
 
 ---
 

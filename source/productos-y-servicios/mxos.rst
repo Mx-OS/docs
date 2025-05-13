@@ -60,4 +60,4 @@ Si bien MxOS como producto de software es gratuito y libre, el proyecto impulsa 
 usuarios u organizaciones que requieran asistencia avanzada, soporte técnico garantizado, implementaciones a medida o consultoría,
 existirán empresas y profesionales dentro del ecosistema MxOS listos para ofrecer estos servicios.
 
-Consulta la sección :ref:`model_mxos` para más detalles sobre el ecosistema.
+Consulta la sección :ref:`modelo` para más detalles sobre el ecosistema.

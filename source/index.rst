@@ -8,11 +8,12 @@ MxOS
    :caption: Contenido:
 
    acerca/index
+   fundación/index
    gobernanza/index
-   colaboración/index
    productos-y-servicios/index
    estrategia-e-implementación/index
-   fundación/index
+   infraestructura/index
+   colaboración/index
 
 Índices y tablas
 ================

@@ -90,7 +90,7 @@ La Fundación MxOS se compromete a:
 
 Sinergia con el Ecosistema
 ==========================
-La actividad económica principal ocurre *dentro* del ecosistema de socios (ver :ref:`ecosystem_strategy_mxos`). Un ecosistema
+La actividad económica principal ocurre *dentro* del ecosistema de socios (ver :ref:`estrategia_de_ecosistema`). Un ecosistema
 saludable y exitoso beneficia indirectamente a la Fundación al aumentar la relevancia y visibilidad de MxOS, lo que puede traducirse
 en mayores oportunidades de atraer patrocinios, membresías corporativas o incluso donaciones. La Fundación apoyará al ecosistema,
 reconociendo esta sinergia beneficiosa.

@@ -1,4 +1,4 @@
-.. _adoption_strategy_mxos:
+.. _estrategia_de_adopción:
 
 ######################
 Estrategia de Adopción
@@ -86,7 +86,7 @@ Acciones Clave para Impulsar la Adopción
 
    * **Experiencia de Usuario Pulida:** Configuraciones por defecto sensatas, un escritorio atractivo y funcional.
 
-   * **Documentación Accesible:** Guías claras de instalación, uso y migración (como se detalla en :ref:`support_strategy_mxos`).
+   * **Documentación Accesible:** Guías claras de instalación, uso y migración (como se detalla en :ref:`estrategia_de_soporte`).
 
    * **Herramientas/Guías de Migración:** Facilitar el cambio desde Windows u otras distribuciones Linux.
 

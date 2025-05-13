@@ -73,7 +73,7 @@ Este nivel de soporte será ofrecido por los **Socios del Ecosistema MxOS**:
    * **Contacto Directo:** Account Managers o Ingenieros de Soporte dedicados.
 
 **Cómo Encontrarlo:**
-    A través del Directorio de Socios en el sitio web de MxOS (ver :ref:`ecosystem_strategy_mxos`).
+    A través del Directorio de Socios en el sitio web de MxOS (ver :ref:`estrategia_de_ecosistema`).
 
 Canales Específicos Mencionados
 ===============================
