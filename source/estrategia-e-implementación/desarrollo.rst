@@ -1,4 +1,4 @@
-.. _development_strategy_mxos:
+.. _estrategia_de_desarrollo:
 
 ########################
 Estrategia de Desarrollo

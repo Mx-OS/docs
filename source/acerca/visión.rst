@@ -1,4 +1,4 @@
-.. _vision_mxos:
+.. _visión:
 
 ######
 Visión

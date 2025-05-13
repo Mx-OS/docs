@@ -1,4 +1,4 @@
-.. _impact_mxos:
+.. _impacto:
 
 #######
 Impacto

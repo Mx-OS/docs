@@ -1,4 +1,4 @@
-.. _estatutos_fundacion_mxos:
+.. _estatutos:
 
 #############################
 Estatutos Sociales (Borrador)

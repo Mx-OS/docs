@@ -1,4 +1,4 @@
-.. _services_mxos:
+.. _servicios:
 
 #########
 Servicios

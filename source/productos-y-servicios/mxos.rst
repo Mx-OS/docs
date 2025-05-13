@@ -1,4 +1,4 @@
-.. _product_mxos:
+.. _mxos:
 
 ####
 MxOS

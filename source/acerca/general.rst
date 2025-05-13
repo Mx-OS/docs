@@ -1,4 +1,4 @@
-.. _overview_mxos:
+.. _general:
 
 #######
 General

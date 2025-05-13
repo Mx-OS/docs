@@ -1,4 +1,4 @@
-.. _support_strategy_mxos:
+.. _estrategia_de_soporte:
 
 #####################
 Estrategia de Soporte

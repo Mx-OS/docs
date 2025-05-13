@@ -1,4 +1,4 @@
-.. _what_is_mxos:
+.. _qué:
 
 ################
 ¿Qué es MxOS?

@@ -1,4 +1,4 @@
-.. _funding_strategy_mxos:
+.. _estrategia_de_financiación:
 
 ##########################
 Estrategia de Financiación

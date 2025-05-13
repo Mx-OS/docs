@@ -1,3 +1,5 @@
+.. _modelo_de_gobernanza:
+
 ####################
 Modelo de Gobernanza
 ####################

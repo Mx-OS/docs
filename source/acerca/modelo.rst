@@ -1,4 +1,4 @@
-.. _model_mxos:
+.. _modelo:
 
 ######
 Modelo

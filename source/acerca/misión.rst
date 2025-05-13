@@ -1,4 +1,4 @@
-.. _mission_mxos:
+.. _misión:
 
 ######
 Misión

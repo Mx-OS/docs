@@ -1,4 +1,4 @@
-.. _ecosystem_strategy_mxos:
+.. _estrategia_de_ecosistema:
 
 ########################
 Estrategia de Ecosistema

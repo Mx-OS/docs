@@ -1,4 +1,4 @@
-.. _objeto_social_mxos:
+.. _objeto_social:
 
 #############
 Objeto Social

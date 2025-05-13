@@ -1,3 +1,5 @@
+.. _quién:
+
 ¿Quiénes somos?
 ===============
 Somos un equipo compuesto por profesionales y entusiastas del FOSS.

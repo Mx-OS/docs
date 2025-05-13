@@ -1,4 +1,4 @@
-.. mxos-productos_y_servicios
+.. _productos_y_servicios:
 
 =====================
 Productos y Servicios
