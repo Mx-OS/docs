@@ -1,4 +1,4 @@
-.. _oolaboración:
+.. _colaboración:
 
 ============
 Colaboración

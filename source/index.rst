@@ -17,8 +17,6 @@ MxOS
 
 Índices y tablas
 ================
-
 * :ref:`genindex`
 * :ref:`search`
-
 
