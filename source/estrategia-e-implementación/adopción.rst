@@ -4,117 +4,121 @@
 Estrategia de Adopción
 ######################
 
-El éxito final de MxOS se medirá por su **adopción real y sostenible** en los sectores clave de México. Nuestra estrategia de
-adopción busca impulsar activamente el uso de MxOS, construyendo una base de usuarios sólida y diversa que valide el proyecto,
-sustente el ecosistema de servicios y contribuya a la meta de soberanía tecnológica.
+El éxito final de la Fundación MxOS se medirá por la **adopción real y sostenible de sus contribuciones tecnológicas y científicas**
+en los sectores clave de México. Nuestra estrategia de adopción busca impulsar activamente el uso del sistema operativo MxOS, la
+aplicación de los conocimientos y tecnologías generados por su I+D, y la participación en proyectos colaborativos, construyendo una
+base de usuarios y colaboradores sólida y diversa.
 
-Implementaremos un enfoque **progresivo y segmentado**, reconociendo que las necesidades y motivaciones varían entre los diferentes
-tipos de usuarios.
+Implementaremos un enfoque progresivo y segmentado, reconociendo que las necesidades y motivaciones varían.
 
 Segmentación y Enfoque Inicial
 ==============================
-Identificamos los siguientes segmentos clave para la adopción de MxOS:
+Identificamos los siguientes segmentos clave para la adopción de MxOS (el SO) y la colaboración/utilización de los resultados de I+D de la Fundación:
 
-1.  **Sector Educativo:** Universidades, instituciones técnicas, escuelas.
+1. **Sector Educativo y Académico:** Universidades, instituciones técnicas, escuelas, centros de investigación.
+   * *Para MxOS (SO):* Uso en laboratorios, enseñanza, desarrollo curricular.
+   * *Para I+D:* Colaboradores en investigación, adoptantes tempranos de nuevas herramientas/metodologías, co-desarrolladores.
 
-2.  **Sector Público:** Dependencias gubernamentales (federales, estatales, municipales).
+2. **Sector Público:** Dependencias gubernamentales (federales, estatales, municipales).
+   * *Para MxOS (SO):* Plataforma para servicios, infraestructura, buscando soberanía y seguridad.
+   * *Para I+D:* Adopción de soluciones tecnológicas específicas para necesidades públicas, colaboración en proyectos estratégicos.
 
-3.  **Comunidad Tecnológica y Entusiastas FOSS:** Desarrolladores, administradores de sistemas, usuarios individuales avanzados.
+3. **Comunidad Tecnológica y Entusiastas FOSS:** Desarrolladores, administradores de sistemas, investigadores individuales, usuarios avanzados.
+   * *Para MxOS (SO):* Contribuidores, testers, evangelizadores.
+   * *Para I+D:* Participantes en proyectos abiertos, adoptantes y probadores de nuevas herramientas.
 
-4.  **Pequeñas y Medianas Empresas (PYMEs):** Buscando alternativas estables, seguras y con soporte local.
+4. **Pequeñas y Medianas Empresas (PYMEs):** Especialmente aquellas con orientación tecnológica o que buscan alternativas robustas y con soporte local.
+   * *Para MxOS (SO):* Sistema operativo para sus operaciones.
+   * *Para I+D:* Potenciales beneficiarios de transferencia tecnológica, adaptadores de soluciones para nichos específicos.
 
-5.  **Grandes Empresas:** (Objetivo a más largo plazo) Requieren alta estabilidad, soporte corporativo robusto y certificaciones.
+5. **Grandes Empresas:** (Objetivo a más largo plazo) Particularmente aquellas en sectores estratégicos o con necesidades de alta personalización y seguridad.
+   * *Para MxOS (SO):* Soluciones robustas y personalizables.
+   * *Para I+D:* Socios en I+D aplicada, adoptantes de tecnologías de vanguardia.
 
 Enfoque Inicial Propuesto
 -------------------------
-**Comunidad Tecnológica y Educativa:**
-    Serán los adoptantes tempranos (early adopters), cruciales para obtener retroalimentación, contribuciones iniciales y generar
-    evangelizadores. Facilitaremos el acceso y la experimentación en estos grupos.
 
-**Programas Piloto en Gobierno y PYMEs Selectas:**
-    Buscaremos activamente implementar proyectos piloto controlados en entidades públicas y empresas amigables para demostrar la
-    viabilidad, recabar datos y construir casos de éxito iniciales.
+* **MxOS:** Foco en Comunidad Tecnológica, Sector Educativo y programas piloto en Gobierno/PYMEs seleccionadas.
+
+* **I+D y Colaboración:** Establecer alianzas tempranas con Universidades y Centros de Investigación clave; identificar necesidades
+  en Sector Público y PYMEs que puedan ser abordadas con proyectos de I+D.
 
 Comunicación de Valor
 =====================
+Es fundamental comunicar los beneficios específicos para cada segmento, tanto de MxOS como de las capacidades de I+D de la
+Fundación:
 
-Es fundamental **comunicar los beneficios específicos** de MxOS para cada segmento:
+* **Gobierno:** Soberanía, seguridad, control, auditabilidad, desarrollo de soluciones estratégicas a medida, acceso a investigación
+  nacional.
 
-**Gobierno:**
-    Soberanía, seguridad, control, auditabilidad, potencial de estandarización y ahorro.
+* **Educación y Academia:** Acceso a FOSS y ciencia abierta, bajo costo, plataforma para enseñanza e investigación, oportunidades de
+  colaboración en I+D.
 
-**Educación:**
-    Acceso a FOSS, bajo costo, plataforma para enseñanza técnica, personalización.
+* **PYMEs:** Estabilidad, seguridad, soporte local, alternativa a costos de licenciamiento, potencial acceso a innovaciones y
+  desarrollos tecnológicos aplicables a sus negocios.
 
-**PYMEs:**
-    Estabilidad, seguridad, soporte local accesible (comunitario y profesional), alternativa a costos de licenciamiento.
+* **Comunidad Tech:** Participación en un proyecto nacional FOSS de vanguardia, transparencia, capacidad de contribución a MxOS y a
+  proyectos de I+D.
 
-**Comunidad Tech:**
-    Participación en un proyecto nacional FOSS, transparencia, capacidad de personalización y contribución.
-
-**Empresas:**
-    (A futuro) Estabilidad RHEL-like, seguridad, soporte profesional robusto a través del ecosistema.
+* **Empresas:** (A futuro) Plataformas estables, seguridad, soporte profesional, acceso a innovación y potencial de co-desarrollo
+  tecnológico.
 
 Acciones Clave para Impulsar la Adopción
 ========================================
-**Construcción de Comunidad y Difusión:**
-   * **Presencia Digital Activa:** Sitio web informativo, blog con actualizaciones y tutoriales, foros activos, presencia en redes
-     sociales relevantes.
 
-   * **Marketing de Contenidos:** Crear artículos, guías, comparativas, vídeos y demos que muestren las capacidades y ventajas de
-     MxOS.
+Construcción de Comunidad Científico-Tecnológica y Difusión Amplia
+------------------------------------------------------------------
+* **Presencia Digital Activa y Contenido Diverso:** Sitio web, blog con actualizaciones (sobre MxOS y avances en I+D), tutoriales,
+  *white papers*, publicaciones de investigación (accesibles), foros de discusión técnica y científica.
 
-   * **Eventos:** Participar en conferencias de software libre, tecnología y gobierno en México. Organizar meetups o webinars sobre
-     MxOS.
+* **Eventos Estratégicos:** Participar y organizar no solo eventos de software libre, sino también congresos científicos, seminarios
+  tecnológicos y talleres de innovación.
 
-   * **Relaciones Públicas:** Difundir hitos importantes del proyecto en medios de comunicación tecnológicos y generales.
+* **Relaciones Públicas y Divulgación Científica:** Difundir hitos del SO MxOS y los resultados de I+D en medios tecnológicos,
+  científicos y generales.
 
-**Alianzas Estratégicas:**
-   * **Socios del Ecosistema:** Colaborar estrechamente con las empresas de servicios para que promuevan e implementen MxOS en sus
-     clientes.
+Alianzas Estratégicas para la Adopción e I+D
+--------------------------------------------
+* **Socios del Ecosistema:** Colaborar para que promuevan e implementen MxOS y otras tecnologías de la Fundación.
 
-   * **Proveedores de Hardware:** Buscar acuerdos para certificar equipos o para preinstalar MxOS.
+* **Proveedores de Hardware:** Acuerdos para certificar o preinstalar MxOS, y potencialmente para colaborar en I+D de hardware
+  abierto.
 
-   * **Instituciones Educativas:** Firmar convenios para el uso de MxOS en laboratorios, desarrollo de material didáctico o
-     programas de prácticas.
+* **Instituciones Educativas y Centros de Investigación:** Convenios para uso de MxOS, desarrollo curricular, *y crucialmente, para
+  proyectos de investigación y desarrollo conjuntos y programas de formación de investigadores*.
 
-   * **Entidades Gubernamentales:** Establecer relaciones para facilitar programas piloto y explorar vías para recomendaciones o
-     adopción oficial.
+* **Entidades Gubernamentales:** Facilitar programas piloto para MxOS y para nuevas tecnologías desarrolladas; explorar vías para
+  adopción oficial y colaboración en I+D para políticas públicas.
 
-**Facilitación del Producto:**
-   * **Instalación Sencilla:** Un instalador gráfico (Anaconda personalizado) claro y fácil de usar.
+Facilitación de Tecnologías y Conocimiento
+------------------------------------------
 
-   * **Experiencia de Usuario Pulida:** Configuraciones por defecto sensatas, un escritorio atractivo y funcional.
+* **MxOS:** Instalador sencillo, experiencia de usuario pulida, documentación accesible, guías de migración.
 
-   * **Documentación Accesible:** Guías claras de instalación, uso y migración (como se detalla en :ref:`estrategia_de_soporte`).
+* **Resultados de I+D:** Publicaciones de acceso abierto, repositorios de código para herramientas desarrolladas, datos abiertos
+  (cuando aplique), talleres de transferencia tecnológica.
 
-   * **Herramientas/Guías de Migración:** Facilitar el cambio desde Windows u otras distribuciones Linux.
+Programas Piloto, Pruebas de Concepto y Casos de Éxito
+------------------------------------------------------
 
-**Programas Piloto y Casos de Éxito:**
-   * Implementar proyectos piloto en entornos reales y controlados.
+* Implementar proyectos piloto no solo para MxOS, sino también para validar y demostrar el valor de nuevas tecnologías o
+  metodologías surgidas de la I+D de la Fundación.
 
-   * Documentar detalladamente los resultados, beneficios y lecciones aprendidas.
-
-   * Crear y difundir "Casos de Éxito" convincentes para generar confianza y demostrar el valor práctico de MxOS.
+* Documentar y difundir casos de éxito tanto de adopción de MxOS como de aplicación de los resultados de I+D.
 
 Hoja de Ruta de Adopción (General)
 ==================================
-Se contempla una adopción por fases (los tiempos son ilustrativos):
+Se contempla una adopción por fases, integrando los avances del SO y de I+D:
 
-**Fase 1 (Lanzamiento Inicial - Año 1-2):**
-    Enfoque en la comunidad tecnológica, sector educativo y programas piloto seleccionados en gobierno/PYMEs. Estabilización del
-    producto y del ecosistema inicial de servicios.
+* **Fase 1 (Lanzamiento Inicial y Establecimiento de I+D - Año 1-2):**
+  Enfoque en la comunidad tecnológica y educativa para MxOS; programas piloto seleccionados. Paralelamente, establecimiento de las primeras líneas de I+D y búsqueda de colaboraciones con universidades/centros de investigación. Estabilización de MxOS y del ecosistema inicial de servicios y colaboradores de I+D.
 
-**Fase 2 (Consolidación - Año 2-4):**
-    Expansión más amplia a PYMEs y sector público basada en casos de éxito. Crecimiento del ecosistema de socios. Maduración de
-    versiones (posiblemente LTS).
+* **Fase 2 (Consolidación y Primeros Resultados de I+D - Año 2-4):**
+  Expansión de MxOS a PYMEs y sector público. Crecimiento del ecosistema de socios. Maduración de versiones de MxOS. Diseminación de los primeros resultados de I+D, posibles herramientas o tecnologías derivadas. Inicio de proyectos de transferencia tecnológica.
 
-**Fase 3 (Expansión - Año 4+):**
-    Abordar el mercado empresarial con mayor fuerza, apoyados en un ecosistema robusto y un producto maduro y probado. Búsqueda de
-    adopción a gran escala.
+* **Fase 3 (Expansión e Impacto Amplio - Año 4+):**
+  Abordar el mercado empresarial con MxOS y soluciones derivadas de I+D. Búsqueda de adopción a gran escala. La Fundación se consolida como referente en tecnologías abiertas e I+D aplicada.
 
----
-
-La adopción exitosa de MxOS será un esfuerzo continuo que requerirá la colaboración activa de la Fundación, la comunidad de usuarios
-y desarrolladores, y los socios del ecosistema. Cada nuevo usuario y cada implementación exitosa nos acercarán al objetivo de
-consolidar una alternativa tecnológica soberana para México.
+La adopción exitosa será un esfuerzo continuo que requerirá la colaboración activa de la Fundación, la comunidad y los socios,
+impulsando tanto el uso del SO MxOS como la aplicación del conocimiento y las tecnologías innovadoras que se generen para la
+soberanía tecnológica de México.

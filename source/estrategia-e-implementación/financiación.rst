@@ -4,99 +4,90 @@
 Estrategia de Financiación
 ##########################
 
-Para asegurar la sostenibilidad a largo plazo del proyecto MxOS y las operaciones de la Fundación, adoptaremos una **estrategia de
-financiación diversificada**. Este enfoque busca evitar la dependencia excesiva de una única fuente, proporcionando resiliencia
-financiera y manteniendo la independencia necesaria para cumplir nuestra misión centrada en la soberanía tecnológica de México.
+Para asegurar la sostenibilidad a largo plazo del proyecto MxOS y las operaciones de la Fundación (enfocada también como centro de
+I+D), adoptaremos una **estrategia de financiación diversificada**. Este enfoque busca evitar la dependencia excesiva de una única
+fuente, proporcionando resiliencia financiera y manteniendo la independencia necesaria para cumplir nuestra misión.
 
 Operando como una **fundación sin fines de lucro**, nos comprometemos a una gestión financiera **transparente y eficiente**.
 
 Principio Clave: Diversificación
 ================================
 La base de nuestra estrategia financiera es la **diversificación activa de fuentes de ingresos y apoyo**. Buscaremos activamente
-financiación a través de tres canales principales, cada uno con sus propias características y enfoques:
+financiación a través de tres canales principales:
 
 Fuentes de Financiación Principales
 ===================================
 
 Financiación del Sector Público
 -------------------------------
-Dada la alineación de MxOS con objetivos estratégicos nacionales, buscaremos activamente fondos públicos a través de:
+Dada la alineación de MxOS y las actividades de I+D de la Fundación con objetivos estratégicos nacionales, buscaremos activamente
+fondos públicos a través de:
 
-**Subvenciones y Apoyos Gubernamentales:**
-    Identificación y solicitud de subvenciones de organismos como CONAHCYT, Secretaría de Economía, u otros programas federales o
-    estatales enfocados en ciencia, tecnología, innovación o desarrollo digital.
+* **Subvenciones y Apoyos Gubernamentales para I+D+i:** Identificación y solicitud de subvenciones de la **SECIHTI (anteriormente
+  CONAHCYT)**, la Secretaría de Economía, u otros programas federales o estatales enfocados en **proyectos de investigación
+  científica, desarrollo tecnológico e innovación**.
 
-**Contratos Gubernamentales:**
-    Establecer contratos con entidades públicas para el desarrollo de características específicas, implementaciones piloto, o
-    servicios de soporte/consultoría de alto nivel requeridos por el gobierno y gestionados por la Fundación.
+* **Contratos Gubernamentales:** Establecer contratos con entidades públicas para el desarrollo de tecnologías específicas
+  (resultado de la I+D de la Fundación), implementaciones piloto de MxOS o de otras soluciones desarrolladas, o servicios de
+  consultoría especializada.
 
-**Convenios de Colaboración:**
-    Formalizar alianzas con instituciones públicas que puedan incluir apoyo financiero o en especie.
+* **Convenios de Colaboración:** Formalizar alianzas con instituciones públicas (universidades, centros de investigación, otras
+  secretarías) que puedan incluir apoyo financiero o en especie para proyectos de I+D conjuntos o para la adopción de tecnologías de
+  la Fundación.
 
-*Enfoque:* Demostrar el valor estratégico de MxOS para las metas nacionales de soberanía, seguridad y modernización digital.
+*Enfoque:* Demostrar el valor estratégico de MxOS y la capacidad de I+D de la Fundación para las metas nacionales de soberanía,
+seguridad, innovación y modernización digital.
 
 Financiación del Sector Privado
 -------------------------------
-Involucraremos al sector privado mediante diversas vías:
+Involucraremos al sector privado mediante diversas vías, apalancando los resultados de la I+D:
 
-**Patrocinios Corporativos:**
-    Creación de paquetes de patrocinio (ej. Bronce, Plata, Oro) con beneficios claros para las empresas (visibilidad, reconocimiento
-    como apoyo a un proyecto nacional, acceso a eventos, mención en sitio web/materiales).
+* **Patrocinios Corporativos:** Creación de paquetes de patrocinio con beneficios claros, incluyendo posible acceso temprano o
+  colaboración en líneas de investigación de la Fundación.
 
-**Cuotas de Membresía (Programa de Socios):**
-    Establecer cuotas anuales para las empresas que formen parte del programa oficial de socios del ecosistema, dándoles acceso a
-    beneficios exclusivos.
+* **Cuotas de Membresía (Programa de Socios del Ecosistema):** Establecer cuotas anuales para empresas que se beneficien del
+  ecosistema y de las tecnologías de la Fundación, con acceso a beneficios exclusivos.
 
-**Donaciones Empresariales:**
-    Aceptar donaciones directas de empresas comprometidas con el desarrollo tecnológico de México o la filosofía del software libre
-    (distintas de los patrocinios formales).
+* **Contratos de Investigación y Desarrollo (I+D) con Empresas:** Ofrecer servicios de I+D aplicada a empresas que requieran
+  soluciones tecnológicas específicas, aprovechando el conocimiento y las capacidades de la Fundación.
 
-**Contratos de Desarrollo Específico:**
-    Gestionar el desarrollo de funcionalidades requeridas por una empresa particular, financiado por esta.
+* **Transferencia Tecnológica:** Explorar modelos de licenciamiento (preferentemente abiertos o con condiciones que favorezcan el
+  interés nacional) o acuerdos de transferencia para tecnologías o propiedad intelectual desarrollada por la Fundación que puedan
+  ser comercializadas o implementadas por el sector privado.
 
-*Enfoque:* Articular la propuesta de valor para las empresas, incluyendo responsabilidad social corporativa (RSC), acceso a talento,
-oportunidades de negocio en el ecosistema y alineación con un proyecto tecnológico nacional.
+* **Donaciones Empresariales:** Aceptar donaciones directas de empresas comprometidas con la misión de la Fundación y el desarrollo
+  tecnológico de México.
+
+*Enfoque:* Articular la propuesta de valor para las empresas, incluyendo el acceso a innovación, desarrollo de soluciones a medida,
+responsabilidad social corporativa (RSC) y la oportunidad de colaborar en la vanguardia tecnológica nacional.
 
 Financiación Comunitaria
 ------------------------
-El apoyo directo de la comunidad de usuarios, desarrolladores y entusiastas es vital, tanto moral como financieramente.
-Facilitaremos este apoyo a través de:
+El apoyo directo de la comunidad de usuarios, desarrolladores y entusiastas es vital. Facilitaremos este apoyo a través de:
 
-**Donaciones Individuales:**
-    Habilitar plataformas sencillas y seguras para recibir donaciones puntuales o recurrentes de individuos que creen en la misión
-    de MxOS y deseen apoyar su desarrollo y mantenimiento.
+* **Donaciones Individuales:** Habilitar plataformas sencillas y seguras para recibir donaciones puntuales o recurrentes.
 
-**Campañas de Crowdfunding (Potencial):**
-    Evaluar la posibilidad de lanzar campañas de financiación colectiva para objetivos específicos y bien definidos que resuenen con
-    la comunidad (ej. financiar el desarrollo de una característica muy solicitada, mejorar infraestructura clave).
+* **Campañas de Crowdfunding (Potencial):** Evaluar la posibilidad de lanzar campañas para financiar proyectos específicos de
+  desarrollo de MxOS o iniciativas de investigación de interés comunitario.
 
-*Enfoque:* Ser completamente transparentes sobre cómo se utilizan las donaciones comunitarias, comunicar el impacto de estas
-contribuciones, y facilitar al máximo el proceso para quienes deseen apoyar económicamente el proyecto.
+*Enfoque:* Ser completamente transparentes sobre cómo se utilizan las donaciones, comunicar el impacto y facilitar al máximo el
+proceso.
 
 Gestión Financiera y Transparencia
 ==================================
 La Fundación MxOS se compromete a:
 
-**Operación Eficiente:**
-    Mantener una estructura de costos ajustada, enfocando los recursos en las actividades clave de desarrollo, comunidad y
-    habilitación del ecosistema.
+* **Operación Eficiente:** Mantener una estructura de costos ajustada, enfocando los recursos en las actividades clave de I+D,
+  desarrollo de MxOS, comunidad y habilitación del ecosistema.
 
-**Transparencia:**
-    Publicar informes financieros anuales detallando los ingresos por fuente y los gastos por categoría, asegurando la rendición de
-    cuentas ante nuestros financiadores y la comunidad.
+* **Transparencia:** Publicar informes financieros anuales detallando los ingresos por fuente y los gastos por categoría.
 
-**Estatus No Lucrativo:**
-    Operar estrictamente bajo los principios de una organización sin fines de lucro.
+* **Estatus No Lucrativo:** Operar estrictamente bajo los principios de una organización sin fines de lucro.
 
 Sinergia con el Ecosistema
 ==========================
-La actividad económica principal ocurre *dentro* del ecosistema de socios (ver :ref:`estrategia_de_ecosistema`). Un ecosistema
-saludable y exitoso beneficia indirectamente a la Fundación al aumentar la relevancia y visibilidad de MxOS, lo que puede traducirse
-en mayores oportunidades de atraer patrocinios, membresías corporativas o incluso donaciones. La Fundación apoyará al ecosistema,
-reconociendo esta sinergia beneficiosa.
+Un ecosistema saludable y una reputación sólida como centro de I+D beneficiarán indirectamente a la Fundación al aumentar su
+relevancia, lo que puede traducirse en mayores oportunidades de atraer patrocinios, contratos de I+D y donaciones.
 
----
-
-Mediante la combinación estratégica de estas fuentes (pública, privada y comunitaria), buscamos construir una base económica sólida
-y resiliente que permita a la Fundación MxOS cumplir su misión y asegurar el desarrollo y la disponibilidad de MxOS para el
-beneficio de México a largo plazo.
+Mediante la combinación estratégica de estas fuentes, con un énfasis reforzado en las oportunidades que brinda el enfoque en I+D,
+buscamos construir una base económica sólida y resiliente para la Fundación MxOS.

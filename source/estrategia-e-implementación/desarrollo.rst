@@ -1,118 +1,101 @@
 .. _estrategia_de_desarrollo:
 
+.. _development_strategy_mxos:
+
 ########################
 Estrategia de Desarrollo
 ########################
 
-La estrategia de desarrollo de MxOS adopta un enfoque pragmático y eficiente, diseñado para ofrecer un sistema operativo robusto,
-seguro y relevante para México con rapidez y sostenibilidad. Inicialmente, **MxOS se basará directamente en CentOS Stream**, aunque
-la visión a largo plazo contempla alcanzar una mayor autosuficiencia.
+La estrategia de desarrollo de la Fundación MxOS se articula en torno a dos ejes complementarios: la **creación y mantenimiento del
+sistema operativo MxOS** como una plataforma robusta y adaptada para México, y la **promoción de la investigación y el desarrollo
+(I+D) tecnológico más amplio** para impulsar la soberanía nacional.
 
-Base: CentOS Stream
-===================
-La decisión de utilizar **CentOS Stream** como la base fundamental de MxOS nos permite:
+Desarrollo del Sistema Operativo MxOS
+=====================================
+El desarrollo del sistema operativo MxOS se guiará por los siguientes principios y enfoques:
 
-**Aprovechar una Base Enterprise:**
-    Heredamos la estabilidad, seguridad y rendimiento de nivel empresarial del ecosistema RHEL (Red Hat Enterprise Linux), del cual
-    CentOS Stream es el flujo de desarrollo principal.
+Base en CentOS Stream para Compatibilidad y Estabilidad
+-------------------------------------------------------
+Reconociendo la amplia adopción de sistemas basados en RHEL (Red Hat Enterprise Linux) y CentOS en el sector empresarial y
+gubernamental de México, **MxOS (el sistema operativo) se basará fundamentalmente en CentOS Stream**. Esta decisión estratégica nos
+permite:
 
-**Reutilizar Infraestructura y Herramientas:**
-    Adoptamos las herramientas de construcción (`rpm`, `mock`, `koji`), gestión de paquetes (`dnf`) e instalación (Anaconda)
-    probadas y estandarizadas del ecosistema Fedora/CentOS/RHEL.
+* **Maximizar la Compatibilidad:** Asegurar una transición más fluida y una mejor interoperabilidad para organizaciones que ya
+  utilizan soluciones del ecosistema RHEL/CentOS.
 
-**Apalancar Documentación Existente:**
-    Nos beneficiamos de la extensa documentación disponible para CentOS Stream y RHEL, reduciendo significativamente el esfuerzo de
-    documentación base.
+* **Aprovechar una Base Enterprise:** Heredar la estabilidad, seguridad y rendimiento probados de este ecosistema.
 
-**Beneficiarnos del Aprendizaje Acumulado:**
-    Capitalizamos las décadas de experiencia, lecciones learnedas y ciclos de prueba y error que han conformado CentOS Stream,
-    evitando obstáculos comunes en el desarrollo de distribuciones.
+* **Reutilizar Herramientas y Documentación:** Adoptar herramientas de construcción, gestión de paquetes e instalación
+  estandarizadas, y apalancar la extensa documentación existente.
 
-**Compatibilidad:**
-    Obtenemos una amplia compatibilidad de hardware y software gracias a la extensa base de usuarios y pruebas del ecosistema RHEL.
+* **Beneficiarnos del Aprendizaje Acumulado:** Capitalizar la experiencia y el conocimiento de la comunidad CentOS Stream y RHEL.
 
-Este punto de partida nos permite acelerar el desarrollo inicial y concentrarnos en el valor añadido específico para México.
+Enfoque de Adaptación y Complemento para MxOS
+---------------------------------------------
+Al partir de CentOS Stream, el esfuerzo principal para el SO MxOS se concentra en **adaptar y complementar** esta base:
 
-Enfoque del Desarrollo de MxOS (Adaptación y Complemento)
-=========================================================
-Al partir de CentOS Stream, nuestro esfuerzo de desarrollo **se concentra en adaptar y complementar** esta sólida base para
-satisfacer las necesidades específicas de México. Las tareas principales del equipo y la comunidad MxOS serán:
+* **Reutilización Máxima:** Priorizar el uso de paquetes de CentOS Stream para mantener la compatibilidad y eficiencia.
 
-**Reutilización Máxima:**
-    Utilizar los paquetes binarios y fuentes de CentOS Stream siempre que sea posible, minimizando la necesidad de recompilar o
-    modificar el núcleo base.
+* **Identidad MxOS:** Aplicar la marca y elementos visuales propios.
 
-**Identidad MxOS:**
-    Aplicar la marca, temas visuales (artwork), fondos de pantalla y otros elementos gráficos propios de MxOS para darle una
-    identidad distintiva.
+* **Curación de Paquetes:** Definir perfiles de instalación y añadir software esencial para el usuario mexicano que no esté en la
+  base (ej. suites ofimáticas, herramientas de productividad, aplicaciones de servidor complementarias). Estos se gestionarán en
+  repositorios propios de MxOS.
 
-**Selección y Curación de Paquetes:**
-    Definir los conjuntos de paquetes que se instalarán por defecto para diferentes perfiles de uso (ej. escritorio estándar,
-    servidor básico, estación de trabajo para desarrollo), posiblemente eliminando software no relevante y añadiendo otros.
+* **Configuración y Localización Optimizadas:** Adaptación al contexto mexicano (idioma, teclado, configuraciones regionales).
 
-**Adición de Software Esencial Faltante:**
-    Empaquetar y mantener en **repositorios propios de MxOS** aquellas aplicaciones y herramientas clave que no formen parte de
-    CentOS Stream pero sean consideradas esenciales para los usuarios mexicanos (ej. suites ofimáticas, herramientas de usuario
-    final, aplicaciones de servidor complementarias).
+* **Exploración de Variantes Inmutables:** Investigar y potencialmente desarrollar ediciones inmutables de MxOS con tecnologías como
+  OSTree y `rpm-ostree` para mayor robustez y gestión moderna.
 
-**Configuración y Localización Optimizadas:**
-    Establecer configuraciones predeterminadas adaptadas a México (idioma es-MX, teclado latinoamericano, zona horaria, etc.) y
-    asegurar una localización completa.
+* **Aseguramiento de la Calidad (QA):** Pruebas exhaustivas de la distribución MxOS completa, enfocándose en los componentes
+  añadidos y personalizados.
 
-**Exploración de Variantes Inmutables:**
-    Investigar y potencialmente desarrollar **ediciones inmutables** de MxOS (similares a Fedora Silverblue/Kinoite) utilizando
-    tecnologías como **OSTree** y `rpm-ostree`. Estas ediciones ofrecerían mayor robustez, actualizaciones atómicas y un paradigma
-    de gestión moderno para casos de uso específicos (escritorios, edge, contenedores).
+Investigación y Desarrollo Tecnológico Ampliado de la Fundación
+===============================================================
+Más allá del desarrollo específico del SO MxOS, la Fundación buscará posicionarse como un **centro para la investigación y el
+desarrollo de tecnologías abiertas** relevantes para la soberanía de México. Esto incluye:
 
-**Aseguramiento de la Calidad (QA):**
-    Probar la distribución MxOS completa, enfocándose en la correcta integración de los componentes añadidos, las configuraciones
-    personalizadas, las variantes (incluyendo las inmutables si se desarrollan) y la compatibilidad general, complementando las
-    pruebas de CentOS Stream.
+* **Áreas de Interés Estratégico:**
 
-Herramientas y Procesos
-=======================
-Aprovecharemos las herramientas estándar del ecosistema:
+   * Ciberseguridad aplicada a infraestructuras nacionales.
 
-**Empaquetado:** `rpm` y `spec files`.
+   * Desarrollo de software para sectores clave mexicanos (ej. gobierno electrónico, educación, salud, PYMEs) utilizando FOSS.
 
-**Gestión de Paquetes:** `dnf` (y `rpm-ostree` para variantes inmutables).
+   * Inteligencia Artificial y Ciencia de Datos con herramientas abiertas y enfoque ético.
 
-**Construcción:** Sistemas como `mock` y potencialmente `Koji` para los repositorios MxOS.
+   * Potencial exploración en hardware abierto y su integración con software soberano.
 
-**Instalador:** Personalización del instalador Anaconda.
+   * Redes y comunicaciones seguras.
 
-**Desarrollo Abierto:** Repositorios públicos (GitLab/GitHub) para los paquetes y configuraciones específicas de MxOS, y un bug
-tracker público.
+* **Metodología:**
+
+    * Fomentar proyectos de investigación aplicada y desarrollo experimental.
+
+    * Colaborar estrechamente con universidades, centros de investigación públicos y privados, y otras OSC.
+
+    * Publicar resultados, herramientas y conocimientos generados bajo licencias abiertas.
+
+* **Sinergia con MxOS:**
+
+    * El SO MxOS puede servir como plataforma de pruebas y despliegue para las innovaciones desarrolladas.
+
+    * Las investigaciones pueden retroalimentar y mejorar la seguridad, funcionalidad y adaptabilidad de MxOS.
+
+Herramientas y Procesos Comunes
+===============================
+Tanto para el desarrollo del SO MxOS como para otros proyectos de I+D, se aprovecharán:
+
+* **Herramientas Estándar del Ecosistema FOSS:** Como `rpm`, `spec files`, `dnf`, `mock`, `Koji` (para construcción y empaquetado).
+
+* **Instalador:** Personalización de Anaconda para MxOS.
+
+* **Desarrollo Abierto:** Repositorios públicos (GitLab/GitHub), bug trackers y canales de comunicación abiertos para todos los
+  proyectos de la Fundación.
 
 Colaboración (Upstream y Local)
 ===============================
-**CentOS Stream:**
-    Interactuaremos con la comunidad CentOS Stream reportando bugs encontrados en la base que afecten a MxOS.
+* **Proyectos Upstream (incluyendo CentOS Stream):** Reportar errores y, cuando sea posible, contribuir mejoras a los proyectos base
+  que utiliza MxOS y otros desarrollos.
 
-**Comunidad MxOS:**
-    Fomentaremos las contribuciones locales para empaquetar software adicional, mejorar la localización, realizar pruebas y
-    desarrollar documentación específica de MxOS.
-
-Ciclo de Vida y Actualizaciones
-===============================
-Inicialmente, el ciclo de vida de MxOS estará **estrechamente ligado al de CentOS Stream**. Las actualizaciones de seguridad y
-paquetes provenientes de CentOS Stream se integrarán de forma continua o periódica en MxOS. Esto implica un modelo de
-**actualización más continuo**.
-
-Evolución a Largo Plazo: Hacia la Autosuficiencia
-=================================================
-Si bien comenzar basándonos en CentOS Stream es un enfoque pragmático y eficiente, la **visión a largo plazo** para MxOS, alineada
-con el objetivo final de soberanía tecnológica, es alcanzar la **autosuficiencia técnica**.
-
-Esto significa aspirar a tener la capacidad de **gestionar el ciclo de vida completo de todos los paquetes** del sistema operativo
-de forma independiente, aunque sigamos colaborando y utilizando fuentes del ecosistema FOSS global. Lograr esta independencia
-requerirá un **crecimiento muy significativo en recursos, infraestructura y talento técnico especializado** dentro del proyecto MxOS
-y su ecosistema.
-
-Es un objetivo ambicioso que guiará la evolución del proyecto a medida que madure y consolide sus capacidades y recursos.
-
----
-
-Esta estrategia revisada establece un camino claro: empezar de forma eficiente apalancando CentOS Stream, enfocar los esfuerzos
-iniciales en la adaptación y el valor añadido para México (incluyendo la exploración de variantes inmutables), y mantener la vista
-en el objetivo a largo plazo de una mayor independencia técnica, siempre dentro de un marco de desarrollo abierto y colaborativo.
+* **Comunidad Local:** Fomentar contribuciones de la comunidad mexicana en todos los niveles: desarrollo de código para MxOS y otros
+  proyectos, empggg

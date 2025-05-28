@@ -4,12 +4,14 @@
 MxOS
 ####
 
-El producto central del proyecto es **MxOS**, un sistema operativo completo, funcional y de propósito general, diseñado y adaptado
-específicamente para el contexto mexicano.
+El producto emblemático y principal de la Fundación MxOS es el **sistema operativo MxOS**, una plataforma completa, funcional y de
+propósito general, diseñada y adaptada específicamente para el contexto mexicano. Como centro de investigación y desarrollo
+tecnológico, la Fundación también se enfocará en la generación de conocimiento, otras herramientas de software libre y
+contribuciones a tecnologías abiertas que complementarán y fortalecerán el ecosistema nacional y la propia plataforma MxOS.
 
-¿Qué es MxOS (Como Producto)?
-=============================
-MxOS es la **distribución Linux** que los usuarios pueden descargar e instalar en sus computadoras (de escritorio, portátiles o
+¿Qué es MxOS?
+=============
+MxOS es la **distribución GNU/Linux** que los usuarios pueden descargar e instalar en sus computadoras (de escritorio, portátiles o
 servidores). Se construye sobre la base sólida y probada del **kernel Linux** y, fundamentalmente, sobre **CentOS Stream**,
 aprovechando un conjunto cuidadosamente seleccionado de **software libre y de código abierto (FOSS)** para garantizar robustez y
 compatibilidad.
@@ -22,32 +24,32 @@ Características Principales
 MxOS se diseña con las siguientes características clave en mente:
 
 **Base Estable y Confiable:**
-    Utilizamos como cimiento la reconocida estabilidad y confiabilidad del ecosistema RHEL/CentOS, al basarnos en **CentOS Stream**.
-    Esto nos permite heredar la madurez de sus componentes principales, como el kernel Linux y las herramientas GNU.
+   Utilizamos como cimiento la reconocida estabilidad y confiabilidad del ecosistema RHEL/CentOS, al basarnos en **CentOS Stream**.
+   Esto nos permite heredar la madurez de sus componentes principales, como el kernel Linux y las herramientas GNU.
 
 **Seguridad como Prioridad:**
-    Implementamos las mejores prácticas de seguridad, promovemos la transparencia del código para auditorías (heredada en gran parte
-    de CentOS Stream) y buscamos aplicar configuraciones y herramientas que refuercen la protección de datos y sistemas, pensando en
-    las necesidades de usuarios individuales, empresas y gobierno en México.
+   Implementamos las mejores prácticas de seguridad, promovemos la transparencia del código para auditorías (heredada en gran parte
+   de CentOS Stream) y buscamos aplicar configuraciones y herramientas que refuercen la protección de datos y sistemas, pensando en
+   las necesidades de usuarios individuales, empresas y gobierno en México.
 
 **Adaptación para México:**
-    MxOS incluye una excelente localización al español de México, configuraciones regionales apropiadas y busca facilitar la
-    integración futura con plataformas y servicios relevantes para el país (ej. sistemas de e-gobierno, facturación electrónica,
-    hardware específico).
+   MxOS incluye una excelente localización al español de México, configuraciones regionales apropiadas y busca facilitar la
+   integración futura con plataformas y servicios relevantes para el país (ej. sistemas de e-gobierno, facturación electrónica,
+   hardware específico).
 
 **Código Abierto y Gratuito:**
-    Siguiendo la filosofía FOSS, MxOS no tiene costo de licencia. Su código fuente (para las partes modificadas o añadidas por MxOS)
-    está disponible públicamente, permitiendo la colaboración, la personalización y la verificación independiente. El código base
-    proviene de CentOS Stream, que es también abierto.
+   Siguiendo la filosofía FOSS, MxOS no tiene costo de licencia. Su código fuente (para las partes modificadas o añadidas por MxOS)
+   está disponible públicamente, permitiendo la colaboración, la personalización y la verificación independiente. El código base
+   proviene de CentOS Stream, que es también abierto.
 
 **Experiencia de Usuario:**
-    Nos esforzamos por ofrecer una experiencia de usuario amigable y productiva, tanto para usuarios técnicos como para aquellos que
-    se inician en Linux, seleccionando entornos de escritorio modernos y herramientas intuitivas. *(Nota: Se podría especificar
-    el/los entornos de escritorio principales en el futuro)*.
+   Nos esforzamos por ofrecer una experiencia de usuario amigable y productiva, tanto para usuarios técnicos como para aquellos que
+   se inician en Linux, seleccionando entornos de escritorio modernos y herramientas intuitivas. *(Nota: Se podría especificar
+   el/los entornos de escritorio principales en el futuro).*
 
 **Compatibilidad de Hardware:**
-    Nos beneficiamos de la amplia compatibilidad de hardware del ecosistema RHEL/CentOS, buscando asegurar el funcionamiento en una
-    extensa gama de equipos comúnmente utilizados en México.
+   Nos beneficiamos de la amplia compatibilidad de hardware del ecosistema RHEL/CentOS, buscando asegurar el funcionamiento en una
+   extensa gama de equipos comúnmente utilizados en México.
 
 Disponibilidad
 ==============
@@ -58,6 +60,8 @@ Más Allá del Sistema Operativo
 ==============================
 Si bien MxOS como producto de software es gratuito y libre, el proyecto impulsa un **ecosistema de servicios profesionales**. Para
 usuarios u organizaciones que requieran asistencia avanzada, soporte técnico garantizado, implementaciones a medida o consultoría,
-existirán empresas y profesionales dentro del ecosistema MxOS listos para ofrecer estos servicios.
+existirán empresas y profesionales dentro del ecosistema MxOS listos para ofrecer estos servicios. Adicionalmente, la labor de
+investigación y desarrollo de la Fundación podrá generar otros recursos valiosos como publicaciones científicas, herramientas de
+software especializadas y metodologías abiertas, disponibles para la comunidad y el país.
 
-Consulta la sección :ref:`modelo` para más detalles sobre el ecosistema.
+Consulta la sección :ref:`modelo` para más detalles sobre el ecosistema y el modelo general.
