@@ -30,10 +30,6 @@ Contacto:
 
 * móvil: 6141421775
 
-* sitio: https://ivan.chavero.com.mx
-
-* facebook: https://facebook.com/imcsk8
-
 * github: https://github.com/imcsk8
 
 * instagram: @imcsk8
