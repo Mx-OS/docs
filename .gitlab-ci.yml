@@ -4,7 +4,7 @@ test:
   stage: test
   script:
     - pip install -U sphinx sphinx_design furo
-    - sphinx-build -b html source public
+    - sphinx-build -b dirhtml source public
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
 

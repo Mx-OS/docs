@@ -48,9 +48,6 @@ html_theme_options = {
     }
 }
 
-# landing
-html_additional_pages = {'index': 'landing.html'}
-
 # pygments
 pygments_style = 'sphinx'
 pygments_dark_style = 'monokai'
