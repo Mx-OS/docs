@@ -1,7 +1,5 @@
 .. _estrategia_de_desarrollo:
 
-.. _development_strategy_mxos:
-
 ########################
 Estrategia de Desarrollo
 ########################
@@ -32,7 +30,7 @@ permite:
 
 Enfoque de Adaptación y Complemento para MxOS
 ---------------------------------------------
-Al partir de CentOS Stream, el esfuerzo principal para el SO MxOS se concentra en **adaptar y complementar** esta base:
+Al partir de CentOS Stream, el esfuerzo principal para el MxOS se concentra en **adaptar y complementar** esta base:
 
 * **Reutilización Máxima:** Priorizar el uso de paquetes de CentOS Stream para mantener la compatibilidad y eficiencia.
 
@@ -52,7 +50,7 @@ Al partir de CentOS Stream, el esfuerzo principal para el SO MxOS se concentra e
 
 Investigación y Desarrollo Tecnológico Ampliado de la Fundación
 ===============================================================
-Más allá del desarrollo específico del SO MxOS, la Fundación buscará posicionarse como un **centro para la investigación y el
+Más allá del desarrollo específico del MxOS, la Fundación buscará posicionarse como un **centro para la investigación y el
 desarrollo de tecnologías abiertas** relevantes para la soberanía de México. Esto incluye:
 
 * **Áreas de Interés Estratégico:**
@@ -77,13 +75,13 @@ desarrollo de tecnologías abiertas** relevantes para la soberanía de México. 
 
 * **Sinergia con MxOS:**
 
-    * El SO MxOS puede servir como plataforma de pruebas y despliegue para las innovaciones desarrolladas.
+    * El MxOS puede servir como plataforma de pruebas y despliegue para las innovaciones desarrolladas.
 
     * Las investigaciones pueden retroalimentar y mejorar la seguridad, funcionalidad y adaptabilidad de MxOS.
 
 Herramientas y Procesos Comunes
 ===============================
-Tanto para el desarrollo del SO MxOS como para otros proyectos de I+D, se aprovecharán:
+Tanto para el desarrollo del MxOS como para otros proyectos de I+D, se aprovecharán:
 
 * **Herramientas Estándar del Ecosistema FOSS:** Como `rpm`, `spec files`, `dnf`, `mock`, `Koji` (para construcción y empaquetado).
 
@@ -98,4 +96,9 @@ Colaboración (Upstream y Local)
   que utiliza MxOS y otros desarrollos.
 
 * **Comunidad Local:** Fomentar contribuciones de la comunidad mexicana en todos los niveles: desarrollo de código para MxOS y otros
-  proyectos, empggg
+  proyectos, empaquetado, pruebas, documentación, traducción y difusión.
+
+Esta estrategia de desarrollo, por lo tanto, conjuga la eficiencia en la creación del MxOS, mediante la adaptación de una base
+tecnológica robusta y la priorización de las necesidades mexicanas, con el impulso a la investigación y desarrollo de tecnologías
+abiertas que fortalezcan la soberanía nacional. La colaboración abierta y la sinergia entre ambos ejes son fundamentales para
+materializar la visión de la Fundación y asegurar un impacto tecnológico duradero para México.
