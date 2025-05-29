@@ -12,7 +12,7 @@ pages:
   stage: deploy
   script:
     - pip install -U sphinx sphinx_design furo
-    - sphinx-build -b html source public
+    - sphinx-build -b dirhtml source public
   artifacts:
     paths:
       - public
