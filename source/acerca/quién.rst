@@ -17,7 +17,7 @@ Ocupación:
     Consultor FOSS y Músico Creative Commons
 
 Localidad:
-    Ixtlahuacán de los Membrillos, Jalisco, Méxio.
+    Ixtlahuacán de los Membrillos, Jalisco, México.
 
 Bio:
     SysAdmin/DevOps/SRE con intereses en la programación en Crystal, C, C++, Go. Experto en GNU/Linux y tecnologías de orquestación,

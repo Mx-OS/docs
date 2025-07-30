@@ -55,7 +55,7 @@ El consejo directivo
 Órgano encargado de la **dirección estratégica, la supervisión general y la representación legal** de la Fundación.
 
 .. todo::
-   Definir un número adecuado de miebros del consejo directivo en `Modelo de Gobernanza`_.
+   Definir un número adecuado de miembros del consejo directivo en `Modelo de Gobernanza`_.
 
 * **Composición:**
    * Electo democráticamente por la Asamblea de Miembros.
