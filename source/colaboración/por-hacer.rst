@@ -11,7 +11,7 @@ Aquí estará la lista de pendientes.
 
 Guías de Contribución Detalladas
 --------------------------------
-El capítulo de Colaboraciónse enfoca en cómo contribuir a la documentación y la configuración de Sphinx. Falta una guía más amplia
+El capítulo de Colaboración se enfoca en cómo contribuir a la documentación y la configuración de Sphinx. Falta una guía más amplia
 que detalle:
 
 * Cómo contribuir código (estilo, proceso de revisión de merge requests, repositorios).

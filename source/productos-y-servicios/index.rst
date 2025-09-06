@@ -3,7 +3,7 @@
 =====================
 Productos y Servicios
 =====================
-En esta sección, se desriben los productos y servicios proporcionados por el proyecto.
+En esta sección, se describen los productos y servicios proporcionados por el proyecto.
 
 .. toctree::
 
