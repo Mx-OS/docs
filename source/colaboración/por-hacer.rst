@@ -24,14 +24,15 @@ que detalle:
 
 Hoja de Ruta (Roadmap)
 ----------------------
-La Estrategia de Adopciónmenciona fases generales. Una hoja de ruta más concreta con hitos específicos (ej., Lanzamiento Alfa, Beta,
-Versión 1.0, objetivos de características por fase) daría más claridad sobre el progreso esperado a corto y mediano plazo.
+La Estrategia de Adopción menciona fases generales. Una hoja de ruta más concreta con hitos específicos (ej., Lanzamiento Alfa,
+Beta, Versión 1.0, objetivos de características por fase) daría más claridad sobre el progreso esperado a corto y mediano plazo.
 
 Especificaciones Técnicas Concretas
 -----------------------------------
 * Entornos de Escritorio: Mencionar cuál o cuáles serán los entornos de escritorio soportados oficialmente (GNOME, KDE, XFCE, etc.).
 
-* Paquetes Clave: Una lista (aunque sea inicial) del software adicional que se incluirá por defecto (la suite ofimática específica, navegadores, herramientas multimedia, etc.) o perfiles de instalación definidos.
+* Paquetes Clave: Una lista (aunque sea inicial) del software adicional que se incluirá por defecto (la suite ofimática específica,
+  navegadores, herramientas multimedia, etc.) o perfiles de instalación definidos.
 
 * Requisitos de Hardware: Mínimos y recomendados para poder instalar y usar MxOS fluidamente.
 
