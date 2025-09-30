@@ -27,6 +27,7 @@ Para instalar lo requerido para colaborar con el proyecto de documentación, deb
              texlive-makeindex \
              texlive-metafont \
              texlive-needspace \
+             texlive-oberdiek \
              texlive-parskip \
              texlive-tabulary \
              texlive-tex-gyre \
@@ -76,6 +77,7 @@ Para instalar lo requerido para colaborar con el proyecto de documentación, deb
              texlive-makeindex \
              texlive-metafont \
              texlive-needspace \
+             texlive-oberdiek \
              texlive-parskip \
              texlive-tabulary \
              texlive-tex-gyre \
