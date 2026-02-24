@@ -22,6 +22,7 @@ Para instalar lo requerido para colaborar con el proyecto de documentación, deb
              texlive-capt-of \
              texlive-cmap \
              texlive-ec \
+             texlive-ellipse \
              texlive-fncychap \
              texlive-framed \
              texlive-makeindex \
@@ -29,6 +30,7 @@ Para instalar lo requerido para colaborar con el proyecto de documentación, deb
              texlive-needspace \
              texlive-oberdiek \
              texlive-parskip \
+             texlive-pict2e \
              texlive-tabulary \
              texlive-tex-gyre \
              texlive-upquote \
@@ -72,6 +74,7 @@ Para instalar lo requerido para colaborar con el proyecto de documentación, deb
              texlive-capt-of \
              texlive-cmap \
              texlive-ec \
+             texlive-ellipse \
              texlive-fncychap \
              texlive-framed \
              texlive-makeindex \
@@ -79,6 +82,7 @@ Para instalar lo requerido para colaborar con el proyecto de documentación, deb
              texlive-needspace \
              texlive-oberdiek \
              texlive-parskip \
+             texlive-pict2e \
              texlive-tabulary \
              texlive-tex-gyre \
              texlive-upquote \
